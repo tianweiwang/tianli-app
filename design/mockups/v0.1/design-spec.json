@@ -1,0 +1,70 @@
+{
+  "version": "v0.1",
+  "requirementBaseline": "docs v0.2",
+  "status": "首轮视觉概念稿",
+  "brand": "天俪",
+  "purpose": "用户便捷预约上门服务，技师和店长快速处理订单。",
+  "direction": "自然、温暖、专业；用户端服务导向，工作台待办导向。",
+  "palette": {
+    "pine": "#173F35",
+    "ivory": "#F7F5EF",
+    "sage": "#DCE7DF",
+    "brass": "#B89A65",
+    "ink": "#252F2B"
+  },
+  "typography": {
+    "ui": "思源黑体 / Source Han Sans SC",
+    "brand": "思源宋体 / Source Han Serif SC"
+  },
+  "pages": [
+    {
+      "id": "01-user-home",
+      "file": "01-用户首页.png"
+    },
+    {
+      "id": "02-booking-confirmation",
+      "file": "02-预约确认.png"
+    },
+    {
+      "id": "03-technician-workbench",
+      "file": "03-技师工作台.png"
+    },
+    {
+      "id": "04-store-manager-workbench",
+      "file": "04-店长工作台.png"
+    }
+  ],
+  "sourceDocuments": [
+    "docs/01-产品概述与一期范围.md",
+    "docs/02-订单与履约.md",
+    "docs/05-安全合规与隐私.md",
+    "docs/07-页面清单.md"
+  ],
+  "assumptions": [
+    "天俪暂作文字品牌，未假定已有品牌标志",
+    "姓名、地址、价格、订单和门店均为界面演示数据",
+    "预约确认示例为已完成实名核验的用户",
+    "技师和店长页面演示各自独立时刻，不作为同一订单的同步快照"
+  ],
+  "scope": [
+    "一期仅上门服务",
+    "一口价已含交通费",
+    "就近安排在支付前确定技师",
+    "门店小程序仅派单、今日订单、求助告警和今日排班",
+    "收入页面不在本轮；技师服务提成由门店发放，分销佣金方可提现"
+  ],
+  "excluded": [
+    "到店预约",
+    "优惠券和储值会员",
+    "跨店调度",
+    "后台持续定位",
+    "集团管理和财务设置"
+  ],
+  "deliverable": "4 张静态效果图，非可交互小程序",
+  "toolMode": "built-in image_gen",
+  "verification": [
+    "核对主要中文文案、需求范围、操作层级",
+    "视觉检查按钮和标签内部居中以及外边界",
+    "检查一期范围外入口、价格和已选技师显示"
+  ]
+}

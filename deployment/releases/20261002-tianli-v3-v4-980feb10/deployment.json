@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "release": "20261002-tianli-v3-v4-980feb10",
+  "releasePath": "/srv/tianli-prototypes/releases/20261002-tianli-v3-v4-980feb10",
+  "backup": "/srv/tianli-prototypes/backups/20261002-tianli-v3-v4-980feb10-retry1",
+  "config": "/etc/nginx/sites-available/badminton-venue-domain",
+  "snippet": "/etc/nginx/snippets/tianli-prototypes.conf",
+  "archiveSha256": "d36be542a56b639cb297940bac5ba3b923183404e9ba89aaa5cc4fae1743c67a",
+  "filesVerified": 311,
+  "publicBase": "https://wxw.ac.cn/tianli/",
+  "entryChecks": {
+    "index.html": {
+      "status": 200,
+      "sha256": "95f9ba9232221f091a6a603b9fa5a92b390171eaeac8ae9d25e62d8cfaa25299"
+    },
+    "v3/demo.html": {
+      "status": 200,
+      "sha256": "1045f0b0d1cc7fc114bf9234a3ba33b1038048bf3a9daea10c0df177e8827430"
+    },
+    "v3/index.html": {
+      "status": 200,
+      "sha256": "679c9ffb03d3f25c192d588ab05ae3e97a0d89fa8f56d9788e6489ec0616e629"
+    },
+    "v4/demo.html": {
+      "status": 200,
+      "sha256": "e39291c04c05ec29186bfba92910543d19ff6004bbb253cd7e475bf8cfdf2ce2"
+    },
+    "v4/index.html": {
+      "status": 200,
+      "sha256": "71f25b45eeb224109853eb0cdc08154328972582ab9e7a764037932e42c16c7f"
+    }
+  },
+  "existingSites": {
+    "/dorm-demo/index.html": {
+      "status": 200,
+      "sha256": "36fa4e4f6ed35e33d8b620be5b0e8515d27272d32f90733f82a0bb3683292afb"
+    },
+    "/dorm-mini-demo/index.html": {
+      "status": 200,
+      "sha256": "c2ee946a7f935d73367534aafdb2b947d2a25e2454896b60f895c8051472d9ec"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+'use strict';
+window.SCREENS=[];
+window.ScreenRenderers={};
+window.defineScreen=(screen,render)=>{if(window.ScreenRenderers[screen.id])throw new Error('重复页面：'+screen.id);window.SCREENS.push(screen);window.ScreenRenderers[screen.id]=render;};
+(() => {
+  const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const icon=name=>`<i data-lucide="${name}" aria-hidden="true"></i>`;
+  const button=(label,action,cls='primary',extra='')=>`<button type="button" class="button ${cls}" ${action?`data-action="${action}"`:''} ${extra}>${label}</button>`;
+  const link=(label,id,cls='secondary')=>button(label,'',cls,`data-go="${id}"`);
+  const avatar=(name,cls='')=>`<span class="avatar ${cls}" aria-hidden="true">${escape(name.slice(0,1))}</span>`;
+  const badge=(label,tone='')=>`<span class="badge ${tone}">${label}</span>`;
+  const kv=(key,value)=>`<div class="kv"><span>${key}</span><span>${value}</span></div>`;
+  const card=(body,title='')=>`<section class="card">${title?`<div class="card-title">${title}</div>`:''}${body}</section>`;
+  const notice=(tone,name,html)=>`<div class="notice ${tone}">${icon(name)}<div>${html}</div></div>`;
+  const hero=(title,desc,tone='brand',name='')=>`<section class="status-hero tone-${tone}"><h2>${name?icon(name):''}${title}</h2><p>${desc}</p></section>`;
+  const field=(label,name,value='',attrs='')=>`<label class="field"><span>${label}</span><input class="booking-input" name="${name}" value="${escape(value)}" ${attrs}></label>`;
+  const select=(label,name,options,value)=>`<label class="field"><span>${label}</span><select class="booking-input" name="${name}">${options.map(option=>{const [id,text]=Array.isArray(option)?option:[option.id,option.name];return `<option value="${escape(id)}" ${String(id)===String(value)?'selected':''}>${text}</option>`;}).join('')}</select></label>`;
+  const check=(label,name,on=false,attrs='')=>`<label class="check-row"><input type="checkbox" name="${name}" ${on?'checked':''} ${attrs}><span>${label}</span></label>`;
+  const footer=(...items)=>`<footer class="action-footer">${items.join('')}<span class="home-indicator"></span></footer>`;
+  const tabs=(role,active)=>{const items=role==='user'?[['house','首页','u-home'],['calendar-check','预约','u-orders'],['user','我的','u-my']]:role==='tech'?[['clipboard-list','预约','t-work'],['calendar-days','排班','t-schedule'],['wallet','收入','t-income'],['user','我的','t-profile']]:[['layout-grid','看板','s-board'],['list-checks','安排','s-waiting'],['calendar-days','排班','s-schedule'],['message-circle','待办','s-care']];return `<nav class="tabbar">${items.map(([name,label,id])=>`<button class="${active===label?'active':''}" data-go="${id}">${icon(name)}<span>${label}</span></button>`).join('')}<span class="home-indicator"></span></nav>`;};
+  const page=({title,body,foot='',tabs:navTabs='',back=true,brand=false,time='10:02'})=>`<div class="statusbar"><span>${time}</span><div class="status-icons">${icon('signal')}${icon('wifi')}${icon('battery-full')}</div></div><header class="navigation">${brand?'<div class="navbrand"><span class="brand-mark">俪</span><strong>天俪</strong><small>预约</small></div>':`${back?'<button class="back" data-action="back" aria-label="返回">'+icon('chevron-left')+'</button>':''}<h1>${title}</h1>`}<div class="capsule" aria-hidden="true"><b>•••</b><i></i><span></span></div></header><main class="content gray">${body}</main>${foot}${navTabs}`;
+  const summary=s=>{const D=window.BookingData;return card(`<div class="person">${icon(D.service(s.serviceId).icon)}<div class="grow"><h3>${D.service(s.serviceId).name}</h3><p>${s.duration}分钟 · ${D.store(s.storeId).name}</p></div></div>${kv('预约时间',escape(s.date+' '+s.slot))}${kv('预约技师',D.tech(s.techId).name+' · '+(s.assignment==='nearby'?'就近安排':'指定技师'))}${kv('联系信息',escape(s.contact.name)+' '+escape(s.contact.phone.replace(/(\d{3})\d{4}(\d{4})/,'$1****$2')))}${kv('项目金额','¥'+s.price.toFixed(2))}`,'预约信息');};
+  const techRow=(tech,s,extra='')=>`<div class="tech-row">${avatar(tech.name)}<div class="grow"><div class="name-line"><h3>${tech.name}</h3>${badge(tech.count<5?'新技师':'资质可查',tech.count<5?'warm':'good')}</div><p>${tech.rating?'★'+tech.rating:'评价不足5条'} · ${Number(tech.distance??window.BookingData.distance(s.location||window.BookingData.region(s.regionId),tech)).toFixed(1)}km</p></div>${extra||button('选择','select-tech','soft',`data-tech="${tech.id}"`)}</div>`;
+  window.UI={escape,icon,button,link,avatar,badge,kv,card,notice,hero,field,select,check,footer,tabs,page,summary,techRow};
+})();

@@ -1,0 +1,23 @@
+{
+  "base": "https://wxw.ac.cn/tianli/",
+  "release": "20261002-tianli-v3-v4-980feb10",
+  "versions": [
+    {
+      "version": "v3",
+      "screensRendered": 170,
+      "pngDecoded": 182,
+      "rolesSwitched": 3
+    },
+    {
+      "version": "v4",
+      "screensRendered": 80,
+      "pngDecoded": 96,
+      "rolesSwitched": 3
+    }
+  ],
+  "errors": [],
+  "startedAt": "2026-10-02T01:23:31.944Z",
+  "filesHashVerified": 311,
+  "success": true,
+  "finishedAt": "2026-10-02T01:27:07.880Z"
+}

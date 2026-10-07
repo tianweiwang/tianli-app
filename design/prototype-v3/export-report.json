@@ -1,0 +1,1617 @@
+{
+ "screens": 170,
+ "groups": 12,
+ "outputDirectory": "H:\\connextes\\天俪_app\\design\\prototype-v3\\exports",
+ "pageImageCount": 170,
+ "overviewImageCount": 12,
+ "actualPngCount": 182,
+ "directories": [],
+ "errors": [],
+ "report": [
+  {
+   "no": "U01",
+   "id": "u-home",
+   "file": "U01-首页-可上门.png",
+   "group": "用户端 · 预约",
+   "hiddenBelow": 49,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U02",
+   "id": "u-out-of-range",
+   "file": "U02-首页-不在服务范围.png",
+   "group": "用户端 · 预约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U03",
+   "id": "u-tech-detail",
+   "file": "U03-技师档案.png",
+   "group": "用户端 · 预约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U04",
+   "id": "u-slot",
+   "file": "U04-选择时段.png",
+   "group": "用户端 · 预约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U05",
+   "id": "u-realname",
+   "file": "U05-实名核验-首次下单.png",
+   "group": "用户端 · 预约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U06",
+   "id": "u-health",
+   "file": "U06-健康告知-首次弹出.png",
+   "group": "用户端 · 预约",
+   "hiddenBelow": 4,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U07",
+   "id": "u-confirm",
+   "file": "U07-确认订单-待支付.png",
+   "group": "用户端 · 预约",
+   "hiddenBelow": 4,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U08",
+   "id": "u-paid",
+   "file": "U08-支付成功-引导订阅.png",
+   "group": "用户端 · 预约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U09",
+   "id": "u-orders",
+   "file": "U09-我的订单-多种状态.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 331,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U10",
+   "id": "u-o-waiting",
+   "file": "U10-订单详情-待接单-技师确认中.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U11",
+   "id": "u-o-dispatching",
+   "file": "U11-订单详情-待接单-门店派单中.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U12",
+   "id": "u-o-accepted",
+   "file": "U12-订单详情-已接单.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U13",
+   "id": "u-o-reassign",
+   "file": "U13-订单详情-改派待确认.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U14",
+   "id": "u-o-store-reschedule",
+   "file": "U14-订单详情-门店改约待确认.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U15",
+   "id": "u-o-departed",
+   "file": "U15-订单详情-技师已出发-取消确认.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U16",
+   "id": "u-o-late",
+   "file": "U16-订单详情-技师已出发-超时未到.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U17",
+   "id": "u-o-arrived",
+   "file": "U17-订单详情-已到达.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U18",
+   "id": "u-o-serving",
+   "file": "U18-订单详情-服务中.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U19",
+   "id": "u-o-extend",
+   "file": "U19-订单详情-服务中-加钟待支付.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U20",
+   "id": "u-o-service",
+   "file": "U20-订单详情-客服介入.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U21",
+   "id": "u-o-done",
+   "file": "U21-订单详情-已完成.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 46,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U22",
+   "id": "u-o-aftersale",
+   "file": "U22-订单详情-售后中-门店处理中.png",
+   "group": "用户端 · 售后与评价",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U23",
+   "id": "u-o-cancelled",
+   "file": "U23-订单详情-已取消-有扣费.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U24",
+   "id": "u-o-autorefund",
+   "file": "U24-订单详情-已取消-派单超期.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U25",
+   "id": "u-o-refunded",
+   "file": "U25-订单详情-已退款-部分退款.png",
+   "group": "用户端 · 售后与评价",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U26",
+   "id": "u-reschedule",
+   "file": "U26-改约.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U27",
+   "id": "u-aftersale-apply",
+   "file": "U27-申请售后.png",
+   "group": "用户端 · 售后与评价",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U28",
+   "id": "u-aftersale-confirm",
+   "file": "U28-售后进度-待用户确认.png",
+   "group": "用户端 · 售后与评价",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U29",
+   "id": "u-aftersale-hq",
+   "file": "U29-售后进度-集团介入中.png",
+   "group": "用户端 · 售后与评价",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U30",
+   "id": "u-review",
+   "file": "U30-评价.png",
+   "group": "用户端 · 售后与评价",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U31",
+   "id": "u-invoice",
+   "file": "U31-申请发票.png",
+   "group": "用户端 · 发票",
+   "hiddenBelow": 30,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U32",
+   "id": "u-promo",
+   "file": "U32-推广中心.png",
+   "group": "用户端 · 推广与提现",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U33",
+   "id": "u-withdraw",
+   "file": "U33-提现-首次提现.png",
+   "group": "用户端 · 推广与提现",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U34",
+   "id": "u-sos",
+   "file": "U34-一键求助-服务中.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U35",
+   "id": "u-restricted",
+   "file": "U35-限制下单.png",
+   "group": "用户端 · 账户与安全",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T01",
+   "id": "t-onboarding",
+   "file": "T01-技师入驻-审核中.png",
+   "group": "技师端 · 入驻与排班",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T02",
+   "id": "t-work",
+   "file": "T02-工作台-在岗.png",
+   "group": "技师端 · 入驻与排班",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T03",
+   "id": "t-o-accepted",
+   "file": "T03-订单详情-已接单-未出发提醒.png",
+   "group": "技师端 · 履约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T04",
+   "id": "t-o-arrived",
+   "file": "T04-订单详情-已到达.png",
+   "group": "技师端 · 履约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T05",
+   "id": "t-o-serving",
+   "file": "T05-订单详情-服务中.png",
+   "group": "技师端 · 履约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T06",
+   "id": "t-terminate",
+   "file": "T06-中止服务-选择原因.png",
+   "group": "技师端 · 履约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T07",
+   "id": "t-finish",
+   "file": "T07-结束服务-提前结束.png",
+   "group": "技师端 · 履约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T08",
+   "id": "t-income",
+   "file": "T08-收入.png",
+   "group": "技师端 · 收入与申诉",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T09",
+   "id": "t-schedule",
+   "file": "T09-排班与请假-请假审批中.png",
+   "group": "技师端 · 入驻与排班",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T10",
+   "id": "t-profile",
+   "file": "T10-我的档案-保单即将到期.png",
+   "group": "技师端 · 入驻与排班",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T11",
+   "id": "t-suspended",
+   "file": "T11-工作台-停单-保单到期.png",
+   "group": "技师端 · 入驻与排班",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S01",
+   "id": "s-dispatch",
+   "file": "S01-派单-求助待接报.png",
+   "group": "店长端 · 派单与订单",
+   "hiddenBelow": 142,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S02",
+   "id": "s-pick",
+   "file": "S02-选择技师派单.png",
+   "group": "店长端 · 派单与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S03",
+   "id": "s-sos-handling",
+   "file": "S03-求助处理-处理中-记录结果.png",
+   "group": "店长端 · 告警与审批",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S04",
+   "id": "s-orders",
+   "file": "S04-今日订单-含异常.png",
+   "group": "店长端 · 派单与订单",
+   "hiddenBelow": 45,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S05",
+   "id": "s-aftersale",
+   "file": "S05-售后处理-待门店处理.png",
+   "group": "店长端 · 派单与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S06",
+   "id": "s-schedule",
+   "file": "S06-技师排班-紧急请假审批.png",
+   "group": "店长端 · 告警与审批",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U36",
+   "id": "u-empty",
+   "file": "U36-我的订单-空状态.png",
+   "group": "通用状态",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U37",
+   "id": "u-neterror",
+   "file": "U37-首页-网络错误.png",
+   "group": "通用状态",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T12",
+   "id": "t-expired",
+   "file": "T12-工作台-操作已过期.png",
+   "group": "通用状态",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T13",
+   "id": "t-location",
+   "file": "T13-订单详情-未授权定位.png",
+   "group": "技师端 · 履约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U38",
+   "id": "u-service-detail",
+   "file": "U38-项目详情-一口价与服务须知.png",
+   "group": "用户端 · 预约",
+   "hiddenBelow": 153,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U39",
+   "id": "u-tech-picker",
+   "file": "U39-选择技师-就近、指定技师.png",
+   "group": "用户端 · 预约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U40",
+   "id": "u-addresses",
+   "file": "U40-地址管理-选择、编辑.png",
+   "group": "用户端 · 预约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U41",
+   "id": "u-address-edit",
+   "file": "U41-填写地址-首次、编辑.png",
+   "group": "用户端 · 预约",
+   "hiddenBelow": 66,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U42",
+   "id": "u-recipient",
+   "file": "U42-填写服务对象-为本人、家人预约.png",
+   "group": "用户端 · 预约",
+   "hiddenBelow": 1,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U43",
+   "id": "u-realname-form",
+   "file": "U43-实名核验-填写、单独授权.png",
+   "group": "用户端 · 预约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U44",
+   "id": "u-my",
+   "file": "U44-我的-已实名.png",
+   "group": "用户端 · 账户与安全",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U45",
+   "id": "u-privacy",
+   "file": "U45-隐私设置-查看同意记录.png",
+   "group": "用户端 · 账户与安全",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U46",
+   "id": "u-privacy-detail",
+   "file": "U46-实名授权-撤回说明.png",
+   "group": "用户端 · 账户与安全",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U47",
+   "id": "u-privacy-withdrawn",
+   "file": "U47-授权结果-已撤回.png",
+   "group": "用户端 · 账户与安全",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U48",
+   "id": "u-delete-account",
+   "file": "U48-注销账号-提交前检查.png",
+   "group": "用户端 · 账户与安全",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U49",
+   "id": "u-deleted",
+   "file": "U49-注销结果-已注销.png",
+   "group": "用户端 · 账户与安全",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U50",
+   "id": "u-safety",
+   "file": "U50-安全中心-当前订单关联.png",
+   "group": "用户端 · 账户与安全",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U51",
+   "id": "u-emergency-contact",
+   "file": "U51-紧急联系人-填写、编辑.png",
+   "group": "用户端 · 账户与安全",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U52",
+   "id": "u-customer-service",
+   "file": "U52-联系客服-门店、集团.png",
+   "group": "用户端 · 账户与安全",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U53",
+   "id": "u-promo-join",
+   "file": "U53-推广邀请-待本人签署.png",
+   "group": "用户端 · 推广与提现",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U54",
+   "id": "u-promo-agreement",
+   "file": "U54-推广协议-查看版本.png",
+   "group": "用户端 · 推广与提现",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U55",
+   "id": "u-promo-declined",
+   "file": "U55-邀请结果-已拒绝.png",
+   "group": "用户端 · 推广与提现",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U56",
+   "id": "u-invoice-form",
+   "file": "U56-申请发票-个人、企业填写.png",
+   "group": "用户端 · 发票",
+   "hiddenBelow": 30,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U57",
+   "id": "u-invoice-pending",
+   "file": "U57-发票详情-待开票.png",
+   "group": "用户端 · 发票",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U58",
+   "id": "u-invoice-issued",
+   "file": "U58-发票详情-已开票.png",
+   "group": "用户端 · 发票",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U59",
+   "id": "u-invoice-red",
+   "file": "U59-发票详情-待红冲.png",
+   "group": "用户端 · 发票",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U60",
+   "id": "u-invoice-redone",
+   "file": "U60-发票详情-已红冲、重开中.png",
+   "group": "用户端 · 发票",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U61",
+   "id": "u-invoice-rejected",
+   "file": "U61-发票详情-已驳回.png",
+   "group": "用户端 · 发票",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U62",
+   "id": "u-withdraw-processing",
+   "file": "U62-提现详情-处理中.png",
+   "group": "用户端 · 推广与提现",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U63",
+   "id": "u-withdraw-success",
+   "file": "U63-提现详情-已到账.png",
+   "group": "用户端 · 推广与提现",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U64",
+   "id": "u-withdraw-failed",
+   "file": "U64-提现详情-失败.png",
+   "group": "用户端 · 推广与提现",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U65",
+   "id": "u-withdraw-revoked",
+   "file": "U65-提现详情-已撤销.png",
+   "group": "用户端 · 推广与提现",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U66",
+   "id": "u-withdraw-confirm",
+   "file": "U66-提现详情-待确认收款.png",
+   "group": "用户端 · 推广与提现",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U67",
+   "id": "u-commission",
+   "file": "U67-佣金明细-全状态、待扣回.png",
+   "group": "用户端 · 推广与提现",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U68",
+   "id": "u-poster",
+   "file": "U68-推广海报-带本人推广参数.png",
+   "group": "用户端 · 推广与提现",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T14",
+   "id": "t-onboarding-edit",
+   "file": "T14-入驻资料-填写与上传.png",
+   "group": "技师端 · 入驻与排班",
+   "hiddenBelow": 682,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T15",
+   "id": "t-identity-consent",
+   "file": "T15-实名与人脸核身-单独同意.png",
+   "group": "技师端 · 入驻与排班",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T16",
+   "id": "t-onboarding-rejected",
+   "file": "T16-入驻审核结果-需补充资料.png",
+   "group": "技师端 · 入驻与排班",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T17",
+   "id": "t-onboarding-supplement",
+   "file": "T17-补充入驻资料-重新提交.png",
+   "group": "技师端 · 入驻与排班",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T18",
+   "id": "t-onboarding-approved",
+   "file": "T18-入驻审核结果-已通过.png",
+   "group": "技师端 · 入驻与排班",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T19",
+   "id": "t-roster-edit",
+   "file": "T19-设置排班-时段校验.png",
+   "group": "技师端 · 入驻与排班",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T20",
+   "id": "t-leave-apply",
+   "file": "T20-申请请假-填写申请.png",
+   "group": "技师端 · 入驻与排班",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T21",
+   "id": "t-leave-approved",
+   "file": "T21-请假结果-已批准.png",
+   "group": "技师端 · 入驻与排班",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T22",
+   "id": "t-leave-rejected",
+   "file": "T22-请假结果-已驳回.png",
+   "group": "技师端 · 入驻与排班",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T23",
+   "id": "t-leaving",
+   "file": "T23-离职交接-停止接新单.png",
+   "group": "技师端 · 入驻与排班",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T24",
+   "id": "t-left",
+   "file": "T24-离职结果-交接完成.png",
+   "group": "技师端 · 入驻与排班",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T25",
+   "id": "t-service-info",
+   "file": "T25-客服介入-补充现场说明.png",
+   "group": "技师端 · 履约",
+   "hiddenBelow": 33,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T26",
+   "id": "t-service-info-sent",
+   "file": "T26-客服介入-说明已提交.png",
+   "group": "技师端 · 履约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T27",
+   "id": "t-complaint-info",
+   "file": "T27-售后投诉-补充说明.png",
+   "group": "技师端 · 履约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T28",
+   "id": "t-complaint-sent",
+   "file": "T28-售后投诉-说明已提交.png",
+   "group": "技师端 · 履约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T29",
+   "id": "t-extension-wait",
+   "file": "T29-加钟等待支付-锁定 5 分钟.png",
+   "group": "技师端 · 履约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T30",
+   "id": "t-extension-expired",
+   "file": "T30-加钟结果-支付超时.png",
+   "group": "技师端 · 履约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T31",
+   "id": "t-noshow-confirm",
+   "file": "T31-标记用户爽约-到达超过 15 分钟.png",
+   "group": "技师端 · 履约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T32",
+   "id": "t-noshow-wait",
+   "file": "T32-爽约核实-店长待确认.png",
+   "group": "技师端 · 履约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T33",
+   "id": "t-noshow-result",
+   "file": "T33-爽约结果-店长已确认.png",
+   "group": "技师端 · 履约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T34",
+   "id": "t-noshow-rejected",
+   "file": "T34-爽约结果-未成立.png",
+   "group": "技师端 · 履约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T35",
+   "id": "t-review-appeal",
+   "file": "T35-评价申诉-填写材料.png",
+   "group": "技师端 · 收入与申诉",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T36",
+   "id": "t-review-appeal-wait",
+   "file": "T36-评价申诉进度-审核中.png",
+   "group": "技师端 · 收入与申诉",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T37",
+   "id": "t-review-appeal-accepted",
+   "file": "T37-评价申诉结果-成立-已隐藏.png",
+   "group": "技师端 · 收入与申诉",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T38",
+   "id": "t-review-appeal-rejected",
+   "file": "T38-评价申诉结果-维持原评价.png",
+   "group": "技师端 · 收入与申诉",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T39",
+   "id": "t-penalty-appeal",
+   "file": "T39-处罚申诉-填写材料.png",
+   "group": "技师端 · 收入与申诉",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T40",
+   "id": "t-penalty-appeal-wait",
+   "file": "T40-处罚申诉进度-集团复核中.png",
+   "group": "技师端 · 收入与申诉",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T41",
+   "id": "t-penalty-appeal-result",
+   "file": "T41-处罚申诉结果-撤销处罚.png",
+   "group": "技师端 · 收入与申诉",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S07",
+   "id": "s-alerts",
+   "file": "S07-门店告警-求助、售后与异常待办.png",
+   "group": "店长端 · 告警与审批",
+   "hiddenBelow": 18,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S08",
+   "id": "s-reassign-designated",
+   "file": "S08-指定技师改派-选择新技师.png",
+   "group": "店长端 · 派单与订单",
+   "hiddenBelow": 22,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S09",
+   "id": "s-reassign-nearby",
+   "file": "S09-已接订单改派-就近安排.png",
+   "group": "店长端 · 派单与订单",
+   "hiddenBelow": 3,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S10",
+   "id": "s-reassign-wait",
+   "file": "S10-改派进度-待用户确认.png",
+   "group": "店长端 · 派单与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S11",
+   "id": "s-reassign-result",
+   "file": "S11-改派进度-已接单.png",
+   "group": "店长端 · 派单与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S12",
+   "id": "s-reassign-refunded",
+   "file": "S12-改派结果-用户拒绝或超时.png",
+   "group": "店长端 · 派单与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S13",
+   "id": "s-reschedule-apply",
+   "file": "S13-门店发起改约-填写方案.png",
+   "group": "店长端 · 派单与订单",
+   "hiddenBelow": 47,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S14",
+   "id": "s-reschedule-wait",
+   "file": "S14-门店改约进度-待用户确认.png",
+   "group": "店长端 · 派单与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S15",
+   "id": "s-reschedule-result",
+   "file": "S15-门店改约结果-用户已同意.png",
+   "group": "店长端 · 派单与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S16",
+   "id": "s-reschedule-rejected",
+   "file": "S16-门店改约结果-原预约保持.png",
+   "group": "店长端 · 派单与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S17",
+   "id": "s-aftersale-reject",
+   "file": "S17-驳回售后申请-理由必填.png",
+   "group": "店长端 · 派单与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S18",
+   "id": "s-aftersale-wait",
+   "file": "S18-售后处理进度-待用户确认.png",
+   "group": "店长端 · 派单与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S19",
+   "id": "s-aftersale-reject-wait",
+   "file": "S19-售后处理进度-驳回待用户确认.png",
+   "group": "店长端 · 派单与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S20",
+   "id": "s-aftersale-supplement",
+   "file": "S20-集团介入-补充门店说明.png",
+   "group": "店长端 · 派单与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S21",
+   "id": "s-aftersale-supplement-sent",
+   "file": "S21-集团介入-材料已提交.png",
+   "group": "店长端 · 派单与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S22",
+   "id": "s-leave-approved",
+   "file": "S22-紧急请假结果-已批准.png",
+   "group": "店长端 · 告警与审批",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S23",
+   "id": "s-leave-reject",
+   "file": "S23-驳回紧急请假-理由必填.png",
+   "group": "店长端 · 告警与审批",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S24",
+   "id": "s-leave-rejected",
+   "file": "S24-紧急请假结果-已驳回.png",
+   "group": "店长端 · 告警与审批",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S25",
+   "id": "s-noshow-review",
+   "file": "S25-用户爽约核实-店长待确认.png",
+   "group": "店长端 · 派单与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S26",
+   "id": "s-noshow-result",
+   "file": "S26-用户爽约结果-已确认.png",
+   "group": "店长端 · 派单与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S27",
+   "id": "s-noshow-rejected",
+   "file": "S27-用户爽约结果-未成立.png",
+   "group": "店长端 · 派单与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U69",
+   "id": "u-o-closed",
+   "file": "U69-订单详情-已关闭-未支付.png",
+   "group": "用户端 · 预约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U70",
+   "id": "u-o-settled",
+   "file": "U70-订单详情-已完成-售后期已过.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 59,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U71",
+   "id": "u-o-history",
+   "file": "U71-订单详情-已完成-评价与开票期限已过.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U72",
+   "id": "u-refund-processing",
+   "file": "U72-退款进度-退款执行中.png",
+   "group": "用户端 · 售后与评价",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U73",
+   "id": "u-refund-received",
+   "file": "U73-退款进度-退款成功.png",
+   "group": "用户端 · 售后与评价",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U74",
+   "id": "u-aftersale-rejected",
+   "file": "U74-售后进度-门店驳回-待用户确认.png",
+   "group": "用户端 · 售后与评价",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U75",
+   "id": "u-aftersale-withdrawn",
+   "file": "U75-售后进度-已撤销.png",
+   "group": "用户端 · 售后与评价",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U76",
+   "id": "u-aftersale-accepted-rejection",
+   "file": "U76-售后进度-已完成-用户接受门店驳回.png",
+   "group": "用户端 · 售后与评价",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U77",
+   "id": "u-aftersale-result",
+   "file": "U77-售后进度-已完成-集团裁决驳回.png",
+   "group": "用户端 · 售后与评价",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U78",
+   "id": "u-reschedule-address",
+   "file": "U78-改约-改地址-原门店范围内.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U79",
+   "id": "u-reschedule-address-outside",
+   "file": "U79-改约-改地址-超出原门店范围.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U80",
+   "id": "u-reschedule-limit",
+   "file": "U80-改约-已用完改约次数.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U81",
+   "id": "u-extend-unavailable",
+   "file": "U81-订单详情-加钟不可用-后续时段冲突.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U82",
+   "id": "u-extend-limit",
+   "file": "U82-订单详情-加钟不可用-已达次数上限.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U83",
+   "id": "u-extend-expired",
+   "file": "U83-订单详情-加钟支付超时.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U84",
+   "id": "u-sos-sent",
+   "file": "U84-安全求助-已发出-待接报.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U85",
+   "id": "u-sos-escalated",
+   "file": "U85-安全求助-3 分钟无人确认-已升级.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U86",
+   "id": "u-sos-unanswered",
+   "file": "U86-安全求助-6 分钟无人确认-无人响应.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U87",
+   "id": "u-sos-closed",
+   "file": "U87-安全求助-已结案-展示处理结果.png",
+   "group": "用户端 · 履约与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U88",
+   "id": "u-loading",
+   "file": "U88-首页-加载中-骨架屏.png",
+   "group": "通用状态",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U89",
+   "id": "u-no-slots",
+   "file": "U89-选择时段-当前技师暂无可约时段.png",
+   "group": "用户端 · 预约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S28",
+   "id": "s-forbidden",
+   "file": "S28-访问受限-无权限-其他门店数据.png",
+   "group": "通用状态",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S29",
+   "id": "s-state-changed",
+   "file": "S29-订单已更新-已被其他人员处理.png",
+   "group": "通用状态",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U90",
+   "id": "u-health-unchecked",
+   "file": "U90-确认订单-健康告知未勾选.png",
+   "group": "用户端 · 预约",
+   "hiddenBelow": 4,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U91",
+   "id": "u-health-ineligible",
+   "file": "U91-健康告知-未成年或禁忌人群-阻止下单.png",
+   "group": "用户端 · 预约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U92",
+   "id": "u-consent-revoked",
+   "file": "U92-预约受限-身份信息授权已撤回.png",
+   "group": "用户端 · 账户与安全",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U93",
+   "id": "u-payment-expired",
+   "file": "U93-支付结果核验-支付超期-核验中.png",
+   "group": "用户端 · 预约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T42",
+   "id": "t-o-departed",
+   "file": "T42-订单详情-已出发.png",
+   "group": "技师端 · 履约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T43",
+   "id": "t-o-completed",
+   "file": "T43-订单详情-已完成-提成待结算.png",
+   "group": "技师端 · 履约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "T44",
+   "id": "t-sos",
+   "file": "T44-安全求助-关联当前订单.png",
+   "group": "技师端 · 履约",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S30",
+   "id": "s-sos-closed",
+   "file": "S30-求助事件-已结案.png",
+   "group": "店长端 · 告警与审批",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "S31",
+   "id": "s-refund-guide",
+   "file": "S31-退款待垫付-充值与重试.png",
+   "group": "店长端 · 派单与订单",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U94",
+   "id": "u-aftersale-material",
+   "file": "U94-补充材料-填写说明.png",
+   "group": "用户端 · 售后与评价",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  },
+  {
+   "no": "U95",
+   "id": "u-review-result",
+   "file": "U95-评价结果-已提交.png",
+   "group": "用户端 · 售后与评价",
+   "hiddenBelow": 0,
+   "sheetHidden": 0,
+   "xOverflow": 0
+  }
+ ],
+ "overviews": [
+  {
+   "group": "用户端 · 预约",
+   "file": "00-总览-01-用户端-预约.png",
+   "imageCount": 19,
+   "imagesDecoded": true
+  },
+  {
+   "group": "用户端 · 履约与订单",
+   "file": "00-总览-02-用户端-履约与订单.png",
+   "imageCount": 29,
+   "imagesDecoded": true
+  },
+  {
+   "group": "用户端 · 售后与评价",
+   "file": "00-总览-03-用户端-售后与评价.png",
+   "imageCount": 14,
+   "imagesDecoded": true
+  },
+  {
+   "group": "用户端 · 发票",
+   "file": "00-总览-04-用户端-发票.png",
+   "imageCount": 7,
+   "imagesDecoded": true
+  },
+  {
+   "group": "用户端 · 推广与提现",
+   "file": "00-总览-05-用户端-推广与提现.png",
+   "imageCount": 12,
+   "imagesDecoded": true
+  },
+  {
+   "group": "用户端 · 账户与安全",
+   "file": "00-总览-06-用户端-账户与安全.png",
+   "imageCount": 11,
+   "imagesDecoded": true
+  },
+  {
+   "group": "技师端 · 入驻与排班",
+   "file": "00-总览-07-技师端-入驻与排班.png",
+   "imageCount": 16,
+   "imagesDecoded": true
+  },
+  {
+   "group": "技师端 · 履约",
+   "file": "00-总览-08-技师端-履约.png",
+   "imageCount": 19,
+   "imagesDecoded": true
+  },
+  {
+   "group": "技师端 · 收入与申诉",
+   "file": "00-总览-09-技师端-收入与申诉.png",
+   "imageCount": 8,
+   "imagesDecoded": true
+  },
+  {
+   "group": "店长端 · 派单与订单",
+   "file": "00-总览-10-店长端-派单与订单.png",
+   "imageCount": 22,
+   "imagesDecoded": true
+  },
+  {
+   "group": "店长端 · 告警与审批",
+   "file": "00-总览-11-店长端-告警与审批.png",
+   "imageCount": 7,
+   "imagesDecoded": true
+  },
+  {
+   "group": "通用状态",
+   "file": "00-总览-12-通用状态.png",
+   "imageCount": 6,
+   "imagesDecoded": true
+  }
+ ],
+ "success": true
+}

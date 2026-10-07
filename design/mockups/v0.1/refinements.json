@@ -1,0 +1,10 @@
+{
+  "toolMode": "built-in image_gen",
+  "edits": [
+    {
+      "asset": "01-用户首页.png",
+      "reason": "统一同名技师在不同页面的头像",
+      "prompt": "Use case: precise-object-edit.\nInput image 1 is the edit target: the complete 天俪 user homepage mobile screenshot.\nInput image 2 is a portrait reference only: the technician workbench screenshot.\nMake exactly one consistency correction to image 1's \"附近技师\" section at the bottom: the circular avatar beside the text \"林师傅\" must show the same male technician shown beside \"林师傅\" in image 2, wearing the same pine green professional uniform and using the same face and hair. The circular avatar beside \"陈师傅\" must show the female professional currently in image 1's left avatar, keeping her pine uniform.\nPreserve EVERYTHING else in image 1: all exact Chinese text, names, numbers, font sizing, layout, colors, card sizes, hero photo, service photo, spacing, borders, all buttons, icons, status bar, bottom tab bar, screen dimensions and complete composition. Only replace the two circular headshots. Do not move the portraits or change their circular bounds. Do not alter text, resize the canvas, crop the screen, or add new visual elements.\nReturn one complete final flat mobile UI screenshot matching image 1 exactly except the corrected avatars."
+    }
+  ]
+}

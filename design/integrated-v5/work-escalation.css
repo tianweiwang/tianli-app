@@ -1,0 +1,7 @@
+.work-escalation{display:grid;gap:12px;min-width:0}
+.work-escalation>.action-details{margin:0;padding-top:12px}
+.work-escalation .field,.work-escalation .kv-grid>div{min-width:0}
+.work-escalation .kv-grid dd,.work-escalation .timeline p{overflow-wrap:anywhere}
+.work-escalation .actions{display:flex;gap:9px;flex-wrap:wrap;min-width:0}
+.work-escalation .actions>button{display:inline-flex;align-items:center;justify-content:center;text-align:center;box-sizing:border-box;max-width:100%;min-width:0}
+@media(max-width:760px){.work-escalation>.kv-grid{grid-template-columns:minmax(0,1fr);gap:12px}.work-escalation .management-form>.actions>button{flex:1}}

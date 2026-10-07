@@ -1,0 +1,11 @@
+{
+  "name": "tianli-integrated-v5",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node serve.cjs",
+    "test": "node --test",
+    "verify": "node verify.cjs",
+    "check": "node --check app.mjs && node --check engine.mjs && node --check customer.mjs && node --check staff.mjs && node --check booking.mjs && node --check booking-draft.mjs && node --check booking-ui.mjs && node --check management.mjs && node --check management-ui.mjs && node --check service-invoices.mjs && node --check invoice-ui.mjs && node --check invoice-files.mjs && node --check service-finance.mjs && node --check tech-income.mjs && node --check finance-ui.mjs && node --check service-reviews.mjs && node --check review-ui.mjs && node --check service-care.mjs && node --check care-ui.mjs && node --check tech-qualification.mjs && node --check qualification-ui.mjs && node --check service-handoff.mjs && node --check service-handoff-ui.mjs && node --check staff-accounts.mjs && node --check accounts-ui.mjs && node --check privacy.mjs && node --check privacy-ui.mjs && node --check sensitive-access.mjs"
+  }
+}

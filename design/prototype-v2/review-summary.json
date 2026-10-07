@@ -1,0 +1,45 @@
+{
+  "scope": "第二版4页设计原型；沿用本会话授权的产品经理与UI设计师复审",
+  "productReview": {
+    "resolved": [
+      "已付款订单保存独立快照，新预约不改变历史示例订单",
+      "已派单技师固化，另一笔改派草稿不影响其结果",
+      "指定技师改派后显示等待用户确认并移除重复提交入口",
+      "45分钟项目保持准确结束时间和时段选中态",
+      "技师全部4笔的数量与列表一致"
+    ]
+  },
+  "uiReview": {
+    "direction": "收敛宣传装饰，使用服务列表和操作状态；方向可保留",
+    "resolved": [
+      "统一390×844画板及48px主按钮",
+      "可约时间、订单原因和倒计时调整为12px",
+      "主按钮未见溢出、裁切或内容组明显偏心"
+    ],
+    "assets": "暂无获批人物照片，使用姓名头像"
+  },
+  "verification": {
+    "result": "passed",
+    "checks": 17,
+    "runtime": "本地Microsoft Edge/Playwright",
+    "sizes": [
+      320,
+      390,
+      430
+    ],
+    "font": "CDP确认Microsoft YaHei实际渲染",
+    "details": "verification.json"
+  },
+  "limitations": [
+    "原型使用本地演示数据",
+    "未接入真实支付、电话、定位和业务后台",
+    "完整后续页面仅提供说明性入口",
+    "未进行微信小程序真机验收"
+  ],
+  "delivery": {
+    "prototype": "index.html",
+    "preview": "http://127.0.0.1:4178/",
+    "exports": "exports/"
+  },
+  "revisionNote": "对比上一版，本轮通过HTML/CSS共享组件生成浏览器截图，未使用整页图像生成。"
+}

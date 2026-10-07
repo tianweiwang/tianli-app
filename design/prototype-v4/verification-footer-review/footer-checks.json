@@ -1,0 +1,65 @@
+[
+  {
+    "id": "s-care",
+    "width": 320,
+    "homeIndicatorCount": 1,
+    "indicators": [
+      {
+        "display": "none",
+        "parent": "action-footer",
+        "top": 0,
+        "height": 0
+      },
+      {
+        "display": "block",
+        "parent": "tabbar",
+        "top": 834,
+        "height": 4
+      }
+    ],
+    "screenshot": "H:/connextes/天俪_app/design/prototype-v4/verification-footer-review/s-care-320.png",
+    "pass": true
+  },
+  {
+    "id": "s-care",
+    "width": 390,
+    "homeIndicatorCount": 1,
+    "indicators": [
+      {
+        "display": "none",
+        "parent": "action-footer",
+        "top": 0,
+        "height": 0
+      },
+      {
+        "display": "block",
+        "parent": "tabbar",
+        "top": 834,
+        "height": 4
+      }
+    ],
+    "screenshot": "H:/connextes/天俪_app/design/prototype-v4/verification-footer-review/s-care-390.png",
+    "pass": true
+  },
+  {
+    "id": "s-care",
+    "width": 430,
+    "homeIndicatorCount": 1,
+    "indicators": [
+      {
+        "display": "none",
+        "parent": "action-footer",
+        "top": 0,
+        "height": 0
+      },
+      {
+        "display": "block",
+        "parent": "tabbar",
+        "top": 834,
+        "height": 4
+      }
+    ],
+    "screenshot": "H:/connextes/天俪_app/design/prototype-v4/verification-footer-review/s-care-430.png",
+    "pass": true
+  }
+]

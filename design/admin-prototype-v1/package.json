@@ -1,0 +1,11 @@
+{
+  "name": "tianli-admin-prototype-v1",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tailwindcss -i ./tailwind.input.css -o ./vendor/tailwind.css --minify",
+    "start": "node serve.cjs",
+    "verify": "node verify.cjs"
+  },
+  "devDependencies": {"tailwindcss": "3.4.17"}
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "file": "01-用户首页.png",
+    "width": 852,
+    "height": 1846,
+    "bytes": 1559474,
+    "sha256": "B94F358E676BA364689154EA15A844737F27C61732989EABDBC6E37E17E81ADF"
+  },
+  {
+    "file": "02-预约确认.png",
+    "width": 934,
+    "height": 1685,
+    "bytes": 1151377,
+    "sha256": "3DF7C071E9BB8011242AE94AF7A8217CAE8AC2F1757B26D161682CA2B6E39626"
+  },
+  {
+    "file": "03-技师工作台.png",
+    "width": 853,
+    "height": 1844,
+    "bytes": 1118743,
+    "sha256": "1358C96040752202F93B195949C2B13EED0197021BDAC1AA64CC326FB881DF24"
+  },
+  {
+    "file": "04-店长工作台.png",
+    "width": 909,
+    "height": 1730,
+    "bytes": 1129495,
+    "sha256": "836F71815FF5EC62DB3FE41A783295F8616CEDA0CE1B6515353EAB0133EAE8A0"
+  }
+]

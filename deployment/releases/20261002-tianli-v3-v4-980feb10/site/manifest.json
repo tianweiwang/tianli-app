@@ -1,0 +1,1589 @@
+{
+  "release": "20261002-tianli-v3-v4-980feb10",
+  "versions": [
+    {
+      "version": "v3",
+      "screens": 170,
+      "png": 182,
+      "localValidation": {
+        "screens": 170,
+        "renderChecks": 510,
+        "issues": 0,
+        "interactionPass": 74,
+        "interactionFail": 0,
+        "placeholderScreens": 0
+      }
+    },
+    {
+      "version": "v4",
+      "screens": 80,
+      "png": 96,
+      "localValidation": {
+        "screens": 80,
+        "renderChecks": 240,
+        "issues": 0,
+        "casePass": 29,
+        "caseFail": 0,
+        "stateAssertions": 6,
+        "browserErrors": 0
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 1689,
+      "sha256": "95f9ba9232221f091a6a603b9fa5a92b390171eaeac8ae9d25e62d8cfaa25299"
+    },
+    {
+      "path": "v3/app.css",
+      "bytes": 31567,
+      "sha256": "907731b3124c3ef601a194e00e070325099b66385744e18791d5112236b59a88"
+    },
+    {
+      "path": "v3/app.html",
+      "bytes": 635,
+      "sha256": "a76e6605969aa7e3825dbf83a838ed6e67302bc41a75fa7df884d6a9a6b75aee"
+    },
+    {
+      "path": "v3/app.js",
+      "bytes": 67808,
+      "sha256": "c888b67234b6efa2574a0d1b41aaee042e943c6862cc040ea748d445eb1f8d27"
+    },
+    {
+      "path": "v3/catalog.js",
+      "bytes": 4958,
+      "sha256": "03636f8903b2816a9ab5150ecfee319408c4a75d98cce2c4cdda7a654e43b681"
+    },
+    {
+      "path": "v3/coverage.md",
+      "bytes": 752,
+      "sha256": "8e348d13c6ad6f4b1ed3d73de16655b0ed4a31da45e8a64033c87adf5671d82e"
+    },
+    {
+      "path": "v3/demo.html",
+      "bytes": 5197,
+      "sha256": "1045f0b0d1cc7fc114bf9234a3ba33b1038048bf3a9daea10c0df177e8827430"
+    },
+    {
+      "path": "v3/exports/00-总览-01-用户端-预约.png",
+      "bytes": 1061422,
+      "sha256": "a57f89958af50c42621a143b7d55edf1f6d89669176775950f363b48aa89b63a"
+    },
+    {
+      "path": "v3/exports/00-总览-02-用户端-履约与订单.png",
+      "bytes": 2061723,
+      "sha256": "58e09ac3f020d0043305d270ddfd51904582c2944d2ef081111ed5f25f070bbf"
+    },
+    {
+      "path": "v3/exports/00-总览-03-用户端-售后与评价.png",
+      "bytes": 806829,
+      "sha256": "ab4f998a77ff299389522265d2d3904eceae68c7a10b7576ee53a47b4b7533a1"
+    },
+    {
+      "path": "v3/exports/00-总览-04-用户端-发票.png",
+      "bytes": 310092,
+      "sha256": "f949f14384162ec063287dea67978d532aa42530c0999cd9b6dae68304ada56c"
+    },
+    {
+      "path": "v3/exports/00-总览-05-用户端-推广与提现.png",
+      "bytes": 641834,
+      "sha256": "d8f9e282a693d93c1cd741f8f8004a2e38ca08f087824ada6a79200e672d24f4"
+    },
+    {
+      "path": "v3/exports/00-总览-06-用户端-账户与安全.png",
+      "bytes": 567626,
+      "sha256": "41bd607343e4e4a2cbaa560d2bd3df37498b3e7ff3480f0de2ef06cba22133ff"
+    },
+    {
+      "path": "v3/exports/00-总览-07-技师端-入驻与排班.png",
+      "bytes": 798105,
+      "sha256": "67f9e57755417d87ff2f9b1d30da0e956e237175926916a974e10ff83667c6bd"
+    },
+    {
+      "path": "v3/exports/00-总览-08-技师端-履约.png",
+      "bytes": 1085207,
+      "sha256": "3a6184c22025d46a14df0d6e456666e5c554ca685d2ef67f3079ac866a2f0505"
+    },
+    {
+      "path": "v3/exports/00-总览-09-技师端-收入与申诉.png",
+      "bytes": 339078,
+      "sha256": "2e43f0bfadf6c0f718281e43f6aafbf87461f63cddcf9107a675677bf41f9d04"
+    },
+    {
+      "path": "v3/exports/00-总览-10-店长端-派单与订单.png",
+      "bytes": 1139808,
+      "sha256": "b07300e020f0c3ccb632269047f40d31d04982d103ecd0c3c5278ca89cc4fd02"
+    },
+    {
+      "path": "v3/exports/00-总览-11-店长端-告警与审批.png",
+      "bytes": 383302,
+      "sha256": "6e088b0a6a7ace47563216fc8211e61719c12b56d48bea44ee0d79fed489d315"
+    },
+    {
+      "path": "v3/exports/00-总览-12-通用状态.png",
+      "bytes": 212339,
+      "sha256": "4e2aa199f68661ab3aff002c2eba68c9d53de09b06f28cbf9ea87d4ea454b8d5"
+    },
+    {
+      "path": "v3/exports/S01-派单-求助待接报.png",
+      "bytes": 151980,
+      "sha256": "9c433845bf4497136d6c61a32dfc9de6a242d63256efd418ba1672fe20b0a750"
+    },
+    {
+      "path": "v3/exports/S02-选择技师派单.png",
+      "bytes": 128965,
+      "sha256": "aeced4a5f606a8fef4236819302a90e46ec36a44ebaa5ba15db515b388599824"
+    },
+    {
+      "path": "v3/exports/S03-求助处理-处理中-记录结果.png",
+      "bytes": 136442,
+      "sha256": "794c1a654b0f086b69cd9da81186fadb6f53fd4263d13d518eb4d9ded037e1a9"
+    },
+    {
+      "path": "v3/exports/S04-今日订单-含异常.png",
+      "bytes": 145533,
+      "sha256": "1889281750c3aee6f616bfdf6b242239c779aaace637c33aeaf0bca6b9192e2c"
+    },
+    {
+      "path": "v3/exports/S05-售后处理-待门店处理.png",
+      "bytes": 137174,
+      "sha256": "31d61395c0393a7a8091c9eea5f22a67466507c7d0138aaae074820f07d05031"
+    },
+    {
+      "path": "v3/exports/S06-技师排班-紧急请假审批.png",
+      "bytes": 121082,
+      "sha256": "c1915d34bb236d294c1bb9d600a4dee83217b4d4c40020f675f98836cf62a06b"
+    },
+    {
+      "path": "v3/exports/S07-门店告警-求助、售后与异常待办.png",
+      "bytes": 148450,
+      "sha256": "2c314807131dc936b92ef01e4f70f3b2140bdc92efa604587f2db200ed0b3c43"
+    },
+    {
+      "path": "v3/exports/S08-指定技师改派-选择新技师.png",
+      "bytes": 128781,
+      "sha256": "e79c1c984df85c322d090d4df9706ad8d8db0ea161b44b436ffdc99db3d72aff"
+    },
+    {
+      "path": "v3/exports/S09-已接订单改派-就近安排.png",
+      "bytes": 123582,
+      "sha256": "911a2a44edfd9f6979dc6c4ecb6b2689f0e2b12e94d3c50da2d0ee604ce802a4"
+    },
+    {
+      "path": "v3/exports/S10-改派进度-待用户确认.png",
+      "bytes": 71727,
+      "sha256": "8ec63ef781efbf7ac45fce74defe759ed87f012f20702ee8ab0063b9c2f0d8d8"
+    },
+    {
+      "path": "v3/exports/S11-改派进度-已接单.png",
+      "bytes": 65013,
+      "sha256": "47f5dce07f975b8349ac8f657333a871b7e4257f82017e569d029f7ba9397383"
+    },
+    {
+      "path": "v3/exports/S12-改派结果-用户拒绝或超时.png",
+      "bytes": 76282,
+      "sha256": "1f86779c86e806561d273950ec117a4dd4ca66c505dd952b247bf6b73c18ae6c"
+    },
+    {
+      "path": "v3/exports/S13-门店发起改约-填写方案.png",
+      "bytes": 119627,
+      "sha256": "317ba3e444e1a797fe358c41a4a423c8eeea822447412806bc4fbf6176d5f6db"
+    },
+    {
+      "path": "v3/exports/S14-门店改约进度-待用户确认.png",
+      "bytes": 78572,
+      "sha256": "bace261b41744da63479fb8aacf40c2b8fac2e9b6a80f4fff30c84d562e05fed"
+    },
+    {
+      "path": "v3/exports/S15-门店改约结果-用户已同意.png",
+      "bytes": 70942,
+      "sha256": "8d36cf5c680a1a2a835083c0c799bab38a910ab8c24e38fb821406d60a09dee5"
+    },
+    {
+      "path": "v3/exports/S16-门店改约结果-原预约保持.png",
+      "bytes": 102228,
+      "sha256": "bfb855a760316c921f575d75404db1498f17e8e5534714c346855288bc2d2cd9"
+    },
+    {
+      "path": "v3/exports/S17-驳回售后申请-理由必填.png",
+      "bytes": 92480,
+      "sha256": "96f469659e4899042b900bd2a7f294eb84290b4a432bfe10fdc158aed3bc6dad"
+    },
+    {
+      "path": "v3/exports/S18-售后处理进度-待用户确认.png",
+      "bytes": 86839,
+      "sha256": "593b81e12e95015d74900047694dcf585e05b5e334c3bb9a6078602b505bd1d2"
+    },
+    {
+      "path": "v3/exports/S19-售后处理进度-驳回待用户确认.png",
+      "bytes": 67002,
+      "sha256": "8b0e2a418d2ec08f3bdb1af2eef2256ca3a27b5bcb610422c66a4de4b991476f"
+    },
+    {
+      "path": "v3/exports/S20-集团介入-补充门店说明.png",
+      "bytes": 89868,
+      "sha256": "8509a7c4b58a90108a9ee6ce04712bf118744818444235bad958e25c17189147"
+    },
+    {
+      "path": "v3/exports/S21-集团介入-材料已提交.png",
+      "bytes": 58616,
+      "sha256": "dbe78a1457b8f8c3be50de4bec350c14fb22bfe11a89462560fe7d1c4e75e284"
+    },
+    {
+      "path": "v3/exports/S22-紧急请假结果-已批准.png",
+      "bytes": 78775,
+      "sha256": "b4ed36800e53edfcb1c61e9c295a7ec6649a127006936c47c41e43cab70dcb90"
+    },
+    {
+      "path": "v3/exports/S23-驳回紧急请假-理由必填.png",
+      "bytes": 53826,
+      "sha256": "de8f8849d46141ce1e99c191a86a1505d2ca57f6258229cbfa4ce5f8475889f4"
+    },
+    {
+      "path": "v3/exports/S24-紧急请假结果-已驳回.png",
+      "bytes": 69470,
+      "sha256": "738a6038c1f264616c949c8ad3c3197cfdda1038f21dd1d3ffe4e08e54125c75"
+    },
+    {
+      "path": "v3/exports/S25-用户爽约核实-店长待确认.png",
+      "bytes": 160183,
+      "sha256": "fa1a86fe085abfe66ce49964964d82ca79ae042020218b41a236a977e46a0a0c"
+    },
+    {
+      "path": "v3/exports/S26-用户爽约结果-已确认.png",
+      "bytes": 78013,
+      "sha256": "46e0bb46ff879391af171de911a5c76c100c20ecf9814a4c9fdf134e9d60dad6"
+    },
+    {
+      "path": "v3/exports/S27-用户爽约结果-未成立.png",
+      "bytes": 64938,
+      "sha256": "18328711583bc6e46619ff103dceabea9eafad412d66d9a47d8b7ae13b0090d6"
+    },
+    {
+      "path": "v3/exports/S28-访问受限-无权限-其他门店数据.png",
+      "bytes": 63003,
+      "sha256": "620514e6841ec626f77c494027ffb80aa77c68cabcdc25fdc89551a6689f6874"
+    },
+    {
+      "path": "v3/exports/S29-订单已更新-已被其他人员处理.png",
+      "bytes": 75215,
+      "sha256": "a8f987a269efbca2bd45711ec35abb9cec395fd5eb2088a160749341b4de3f52"
+    },
+    {
+      "path": "v3/exports/S30-求助事件-已结案.png",
+      "bytes": 77529,
+      "sha256": "0ca063cf910db1298f54c4ce4d68db0e3bb08b27fae26982b8a5aff249fc732f"
+    },
+    {
+      "path": "v3/exports/S31-退款待垫付-充值与重试.png",
+      "bytes": 85560,
+      "sha256": "ec3936fbab927aa67f6097f4f318f6cad27b55d92700284597dba5e04c880563"
+    },
+    {
+      "path": "v3/exports/T01-技师入驻-审核中.png",
+      "bytes": 107251,
+      "sha256": "bd6bd36bfc286e1a60f6c9171deefed406f112a83ee48950bde4da532b832b18"
+    },
+    {
+      "path": "v3/exports/T02-工作台-在岗.png",
+      "bytes": 128002,
+      "sha256": "e9db0432cf8c7911d3a7b2190309111fbedb24d13e3e9661aed61dc2adbcc736"
+    },
+    {
+      "path": "v3/exports/T03-订单详情-已接单-未出发提醒.png",
+      "bytes": 132036,
+      "sha256": "739aba45bb375b803de6e3781830894984ab27b9c5295dbd8d20b40511abe566"
+    },
+    {
+      "path": "v3/exports/T04-订单详情-已到达.png",
+      "bytes": 128894,
+      "sha256": "4913b715a67a1f5ac672f639a60dd14a06b88d90fcb2cf0762ff8d8b77d0e867"
+    },
+    {
+      "path": "v3/exports/T05-订单详情-服务中.png",
+      "bytes": 111333,
+      "sha256": "8aa523de4370050b681024d05642b5b08e60aebb763b947cf00b6d7162b1c4a4"
+    },
+    {
+      "path": "v3/exports/T06-中止服务-选择原因.png",
+      "bytes": 125043,
+      "sha256": "4ac4388bf4b04ab9a85167476cb7585599178920b01ac0a0a53a7de577540802"
+    },
+    {
+      "path": "v3/exports/T07-结束服务-提前结束.png",
+      "bytes": 133453,
+      "sha256": "a358a30882302fad26b87df04800bf31c1b56529cf6b252800445cb9dcc4f583"
+    },
+    {
+      "path": "v3/exports/T08-收入.png",
+      "bytes": 141324,
+      "sha256": "b321b3b5c90dd479194bc2dffafabe2f8731cebef71d2fe1e409afbb4b6ca297"
+    },
+    {
+      "path": "v3/exports/T09-排班与请假-请假审批中.png",
+      "bytes": 113879,
+      "sha256": "7fb0ce5be2e81b769daaf3e6c12a1352bbbfb67c9d2e39a709c1011556277b03"
+    },
+    {
+      "path": "v3/exports/T10-我的档案-保单即将到期.png",
+      "bytes": 135823,
+      "sha256": "c5073e349049672bf7edb51ae6420b99ef78b7ee91290332f480ecec0a96af56"
+    },
+    {
+      "path": "v3/exports/T11-工作台-停单-保单到期.png",
+      "bytes": 89067,
+      "sha256": "e6e67ccb770281c62e06401f9a1758b799848ac7ef44d1f76239116f66f73982"
+    },
+    {
+      "path": "v3/exports/T12-工作台-操作已过期.png",
+      "bytes": 85039,
+      "sha256": "3dfdda9939bc3b2c1a476a22eb264c9f83ce92695be1013d2dfc1b33afefeb93"
+    },
+    {
+      "path": "v3/exports/T13-订单详情-未授权定位.png",
+      "bytes": 143223,
+      "sha256": "de31bd3bbea10617ea540a9a3e875a17fb8b10a104cef82de47711ce78538fd7"
+    },
+    {
+      "path": "v3/exports/T14-入驻资料-填写与上传.png",
+      "bytes": 108391,
+      "sha256": "433136c4411935aa6742b3455ec7ae75e4347c9206416187b4cad7f24e464f2e"
+    },
+    {
+      "path": "v3/exports/T15-实名与人脸核身-单独同意.png",
+      "bytes": 112050,
+      "sha256": "9747b8e2abe1f02b05f2950cdfb100065a75905f052731bc659ae4c3dcc455df"
+    },
+    {
+      "path": "v3/exports/T16-入驻审核结果-需补充资料.png",
+      "bytes": 94020,
+      "sha256": "805d7952c01859d20a67c0247b1b8c23507635bf85bdd9f64314343a12a05bde"
+    },
+    {
+      "path": "v3/exports/T17-补充入驻资料-重新提交.png",
+      "bytes": 78479,
+      "sha256": "6f215eb4097d9da3a8bd8139803fb57cd1b865a0f9316eda5f1a01f0e24fa3eb"
+    },
+    {
+      "path": "v3/exports/T18-入驻审核结果-已通过.png",
+      "bytes": 65395,
+      "sha256": "dfca9f3f31125af0f8e3a862dccda77c3751934c7bff81464898ac3d4af3fd83"
+    },
+    {
+      "path": "v3/exports/T19-设置排班-时段校验.png",
+      "bytes": 89416,
+      "sha256": "1c0b56b5de875b825dc12979accf7dc03713197e0a17b1ef5ae0b043b46ab2af"
+    },
+    {
+      "path": "v3/exports/T20-申请请假-填写申请.png",
+      "bytes": 85993,
+      "sha256": "859a40987e6418b6eedbc1a08bbffa7a094b342bc1a67dee25218c98b2d88823"
+    },
+    {
+      "path": "v3/exports/T21-请假结果-已批准.png",
+      "bytes": 58121,
+      "sha256": "54982b90c96332c715403dd89056b370264fa359ef433c920ed373c22e972463"
+    },
+    {
+      "path": "v3/exports/T22-请假结果-已驳回.png",
+      "bytes": 67080,
+      "sha256": "0d1f7865a57e8215cd85c360a3a80e5ee9016f2c75c306dbca75d4162872a150"
+    },
+    {
+      "path": "v3/exports/T23-离职交接-停止接新单.png",
+      "bytes": 88061,
+      "sha256": "1bb0c8597abeb17bd5850fd52cb7a57501565b36366226d5bc6d4edd62dba74a"
+    },
+    {
+      "path": "v3/exports/T24-离职结果-交接完成.png",
+      "bytes": 74149,
+      "sha256": "1d4e28417d29f2fcdbc32c4c5387533aa3cc214fc1ce2e145f38b84a26c6b4b5"
+    },
+    {
+      "path": "v3/exports/T25-客服介入-补充现场说明.png",
+      "bytes": 128736,
+      "sha256": "e31d1b20113e7600ae627d907f0fa61f07dec0cf9f5d1b59e46616ee454adb73"
+    },
+    {
+      "path": "v3/exports/T26-客服介入-说明已提交.png",
+      "bytes": 99789,
+      "sha256": "312f66ce9c05ce2f4f9a086c3d3f2a24c6d52cb29d3e57f4c469d28c873cc9b3"
+    },
+    {
+      "path": "v3/exports/T27-售后投诉-补充说明.png",
+      "bytes": 102851,
+      "sha256": "2ab6bd6f47a9b30f67aa6e203a6c02edd3c3992a1b1c50df3d0d13a1678802ec"
+    },
+    {
+      "path": "v3/exports/T28-售后投诉-说明已提交.png",
+      "bytes": 58774,
+      "sha256": "0000e4fac9dcb34b32e002129e201750f9d1512527c6e868f10b63e0db8120b0"
+    },
+    {
+      "path": "v3/exports/T29-加钟等待支付-锁定 5 分钟.png",
+      "bytes": 162707,
+      "sha256": "c31bfc2fb6994158648568464f8e651b401c0dae46165f72f5b5ce50319fe9e8"
+    },
+    {
+      "path": "v3/exports/T30-加钟结果-支付超时.png",
+      "bytes": 84680,
+      "sha256": "00b1a9f800e49b57fb69640d2ad7abf974cdd3765ed0364b2a7a93d9c1272a88"
+    },
+    {
+      "path": "v3/exports/T31-标记用户爽约-到达超过 15 分钟.png",
+      "bytes": 149848,
+      "sha256": "23114ac530641c030a346c549dc3adc3061a214c44bf91396774f88e5e5f189d"
+    },
+    {
+      "path": "v3/exports/T32-爽约核实-店长待确认.png",
+      "bytes": 90310,
+      "sha256": "4e148dd49ff9f9688211885f7f36af4b3ee0daf8d0cf3ec8b7f30e1b01ed0146"
+    },
+    {
+      "path": "v3/exports/T33-爽约结果-店长已确认.png",
+      "bytes": 83791,
+      "sha256": "f11da600a5c568072929e52e9f56c441d1194973561ec947d5794475848e598f"
+    },
+    {
+      "path": "v3/exports/T34-爽约结果-未成立.png",
+      "bytes": 83171,
+      "sha256": "78e67ca83783f94e0cdd1c714c6ef20b705d51afb2484f69d609a76304f86a68"
+    },
+    {
+      "path": "v3/exports/T35-评价申诉-填写材料.png",
+      "bytes": 81029,
+      "sha256": "304ae1ebce8d6cd28d68bf9bef37baa35122afc644abf75e527874f814647217"
+    },
+    {
+      "path": "v3/exports/T36-评价申诉进度-审核中.png",
+      "bytes": 60645,
+      "sha256": "3b128b45fbbea1c3712df6a40047b9a43f49a4e6763e401341a6e0286e622e92"
+    },
+    {
+      "path": "v3/exports/T37-评价申诉结果-成立-已隐藏.png",
+      "bytes": 72312,
+      "sha256": "f0aaf160140816bc5afd1ce82bb49b3d13d5d2abedc92131bb8578f4341669e3"
+    },
+    {
+      "path": "v3/exports/T38-评价申诉结果-维持原评价.png",
+      "bytes": 65742,
+      "sha256": "87b97a08d8f6232b248027b106d0c559a3fe96ac42995306f5e6908e4484f0fc"
+    },
+    {
+      "path": "v3/exports/T39-处罚申诉-填写材料.png",
+      "bytes": 81096,
+      "sha256": "d4c889b6742fe444e0cf0b141db3557ad380a2b0dd869b3ac163ae516c0cc539"
+    },
+    {
+      "path": "v3/exports/T40-处罚申诉进度-集团复核中.png",
+      "bytes": 63146,
+      "sha256": "c2278c5d42252f35d7c862fca7e87ac1cd2ebb11ba45d379b752ff65bea97f33"
+    },
+    {
+      "path": "v3/exports/T41-处罚申诉结果-撤销处罚.png",
+      "bytes": 88154,
+      "sha256": "ef7558cbc14def43858105562fc7e0624924c299f37c6009285d46bbf9ea9578"
+    },
+    {
+      "path": "v3/exports/T42-订单详情-已出发.png",
+      "bytes": 102697,
+      "sha256": "178f4fd9b812ef44e262bf67a48090841f1fd826d0917f8042848ff6428dc8a2"
+    },
+    {
+      "path": "v3/exports/T43-订单详情-已完成-提成待结算.png",
+      "bytes": 101028,
+      "sha256": "d72287faa6d99d50615940713445480f0b0499ccb7fc46964d6c384e02841d12"
+    },
+    {
+      "path": "v3/exports/T44-安全求助-关联当前订单.png",
+      "bytes": 104418,
+      "sha256": "45f49e3d4c9aab266f80923333d33c81fb052f633ee7d9f52089a3d0fe57d224"
+    },
+    {
+      "path": "v3/exports/U01-首页-可上门.png",
+      "bytes": 153135,
+      "sha256": "d7eba49992810ad1d7d150837a1bb68be4444a3f27cb2a2092a24dc54601114b"
+    },
+    {
+      "path": "v3/exports/U02-首页-不在服务范围.png",
+      "bytes": 78787,
+      "sha256": "398c7acbf61947672c90af037995a6ebaca72a9582f23078d3f7311fbbc28794"
+    },
+    {
+      "path": "v3/exports/U03-技师档案.png",
+      "bytes": 131477,
+      "sha256": "a4e06cf221282bce8e8b47c0aa95c649f229d1d8b3e60f6226fdf214c65e4ad3"
+    },
+    {
+      "path": "v3/exports/U04-选择时段.png",
+      "bytes": 104897,
+      "sha256": "95be826f981385c4134d7c2d5cc0b8ed0a234f3300c4377dfd75782b57c70fc6"
+    },
+    {
+      "path": "v3/exports/U05-实名核验-首次下单.png",
+      "bytes": 92221,
+      "sha256": "bc7173aed53163beb4f107201072993cb9ce5120af1a2cee95c0e3a740b911c9"
+    },
+    {
+      "path": "v3/exports/U06-健康告知-首次弹出.png",
+      "bytes": 134382,
+      "sha256": "b19a0ac34db694cf58d2daeddfc95ef00c328101f6ab2d85c1db99c2e4d2e2d7"
+    },
+    {
+      "path": "v3/exports/U07-确认订单-待支付.png",
+      "bytes": 158075,
+      "sha256": "ace1ff1df5b3ea5cf52ea4c9c7f67e6823450db82ae7888df024b2ec29b69fcb"
+    },
+    {
+      "path": "v3/exports/U08-支付成功-引导订阅.png",
+      "bytes": 99555,
+      "sha256": "e669b618f4dbf8c2dc9bc0878769fadc3930daf08d6861de59e1493b264db745"
+    },
+    {
+      "path": "v3/exports/U09-我的订单-多种状态.png",
+      "bytes": 116565,
+      "sha256": "c89a1a7009ecbbb4c7b89d9b6d84a85e8b858c416f9d4fb53008e91d4f70f7aa"
+    },
+    {
+      "path": "v3/exports/U10-订单详情-待接单-技师确认中.png",
+      "bytes": 148178,
+      "sha256": "62f37bd208eaa5b81fcd6098473a5e7138057ad1995d2964c252f56acbce9671"
+    },
+    {
+      "path": "v3/exports/U11-订单详情-待接单-门店派单中.png",
+      "bytes": 140701,
+      "sha256": "2897c504b463fea1bf758cba37ca6c68e6516dc79ab8cf58566cfcc78b5f4ef5"
+    },
+    {
+      "path": "v3/exports/U12-订单详情-已接单.png",
+      "bytes": 143655,
+      "sha256": "9212aa58f2e4baab5fa80270be5455055871f81ba7e738a932398d3ad0a002f4"
+    },
+    {
+      "path": "v3/exports/U13-订单详情-改派待确认.png",
+      "bytes": 156349,
+      "sha256": "49948ea53d7635be939e66549b3ec83734ecd659ad62d49b931b900447a6d244"
+    },
+    {
+      "path": "v3/exports/U14-订单详情-门店改约待确认.png",
+      "bytes": 132537,
+      "sha256": "105d7d86f3c0f2cf6ec50c1a4df670bcb9845ce39747a5174b8afa8ea272f264"
+    },
+    {
+      "path": "v3/exports/U15-订单详情-技师已出发-取消确认.png",
+      "bytes": 149402,
+      "sha256": "4ad568f5d79828fad9430a4b5ba9cdbe71c14220a67bfb7fa4fff875670d8d91"
+    },
+    {
+      "path": "v3/exports/U16-订单详情-技师已出发-超时未到.png",
+      "bytes": 158203,
+      "sha256": "7ed200ee4aec57302a59df5fed4353c708d8c3fe6daee9249e24f6f2f2170f58"
+    },
+    {
+      "path": "v3/exports/U17-订单详情-已到达.png",
+      "bytes": 143351,
+      "sha256": "64e59cf0d4b3a6f8e944cb1aac6dd5f5d23a1c4468e0cbdf78a1d84c9953d7ae"
+    },
+    {
+      "path": "v3/exports/U18-订单详情-服务中.png",
+      "bytes": 132243,
+      "sha256": "ac2061d98352a110c3fe9d93a86cc72329e7a99576cdcd2d07fbf6ded21ffcf5"
+    },
+    {
+      "path": "v3/exports/U19-订单详情-服务中-加钟待支付.png",
+      "bytes": 140232,
+      "sha256": "90a1dfb8cdab9e4e7172d6823608c8de1427d5a023536374592f986f2df3e87b"
+    },
+    {
+      "path": "v3/exports/U20-订单详情-客服介入.png",
+      "bytes": 143236,
+      "sha256": "54693f610826053254a149d54d5d17df3e5b362f41234883294e08d47bd1cc68"
+    },
+    {
+      "path": "v3/exports/U21-订单详情-已完成.png",
+      "bytes": 135812,
+      "sha256": "3010e54ee73cb1558290fabe47b898dcc21b21ac7d1e949497d9bc5e58d82972"
+    },
+    {
+      "path": "v3/exports/U22-订单详情-售后中-门店处理中.png",
+      "bytes": 139674,
+      "sha256": "1f7f30409d5cbdecf8f67925228cfe21b7033950ff2814280324d960486e55af"
+    },
+    {
+      "path": "v3/exports/U23-订单详情-已取消-有扣费.png",
+      "bytes": 140259,
+      "sha256": "32795803a5ad1389aa6e49690e7d3b8e5c0734b231b26393cb3c37cfc1980aef"
+    },
+    {
+      "path": "v3/exports/U24-订单详情-已取消-派单超期.png",
+      "bytes": 144539,
+      "sha256": "aeb71551e9d7e053a260d2eaed464bd125e701910a2a770882cbded12c2845f4"
+    },
+    {
+      "path": "v3/exports/U25-订单详情-已退款-部分退款.png",
+      "bytes": 142364,
+      "sha256": "e76d54e3a35c3c8b9108601e9d05a599b3ec25ff0324a79dd0b497b60cfebc05"
+    },
+    {
+      "path": "v3/exports/U26-改约.png",
+      "bytes": 130236,
+      "sha256": "7d9139031dff98b0102916dc6a04ba14c74c0ec2934fc58419ed24d08c0763ab"
+    },
+    {
+      "path": "v3/exports/U27-申请售后.png",
+      "bytes": 129028,
+      "sha256": "435440533837ed35f6e3e38375bfe96803d5adacd2ad56e829a647225aed318a"
+    },
+    {
+      "path": "v3/exports/U28-售后进度-待用户确认.png",
+      "bytes": 133188,
+      "sha256": "bdab10a3f157fc8d7b1f6153d92a6de114aca558d4ee3665a550f0a40415ac16"
+    },
+    {
+      "path": "v3/exports/U29-售后进度-集团介入中.png",
+      "bytes": 134022,
+      "sha256": "329dfcb3f9327cedda1dca32d798665688451fccebbde7dd8ed8d67dc0bfca67"
+    },
+    {
+      "path": "v3/exports/U30-评价.png",
+      "bytes": 91272,
+      "sha256": "98ecb4f2c61132e6797a12f1f1d720c3cdec5d174987389722ec17824a93c2f9"
+    },
+    {
+      "path": "v3/exports/U31-申请发票.png",
+      "bytes": 111569,
+      "sha256": "cd7276dc04e3b4e16296fd7bfbc061e397a6bff4ad2a6d0bbfe1fdc15074f5aa"
+    },
+    {
+      "path": "v3/exports/U32-推广中心.png",
+      "bytes": 135859,
+      "sha256": "f82682de1975eb5156dfecfcd87d65e6b2d3c95b70dd261f441f2b83eca1efb6"
+    },
+    {
+      "path": "v3/exports/U33-提现-首次提现.png",
+      "bytes": 159455,
+      "sha256": "c2a1382e917a8e57d86fae43d7c2c520c410b1697ea329baa8857e15878c489e"
+    },
+    {
+      "path": "v3/exports/U34-一键求助-服务中.png",
+      "bytes": 141160,
+      "sha256": "f52f6d7639af6a339388355053e31d26aa8d25463f5494727b2e4deeba919d09"
+    },
+    {
+      "path": "v3/exports/U35-限制下单.png",
+      "bytes": 82265,
+      "sha256": "ffc9f79577cf1587f07022da92b71fb26adbef8c61fde0fbc8319cfd6d8e75dd"
+    },
+    {
+      "path": "v3/exports/U36-我的订单-空状态.png",
+      "bytes": 48760,
+      "sha256": "94b3e78bbc007335a1b319af815ee68978b253d01eaea4421df3cb815407d255"
+    },
+    {
+      "path": "v3/exports/U37-首页-网络错误.png",
+      "bytes": 47865,
+      "sha256": "f06c235f059fcb399fcab26bb4087d3951c0055632860acd8cb72574e5adfcb7"
+    },
+    {
+      "path": "v3/exports/U38-项目详情-一口价与服务须知.png",
+      "bytes": 176888,
+      "sha256": "da7f37190abd332f66353af3031f9e547554730446d9e4f62ac9d864d6eb2fba"
+    },
+    {
+      "path": "v3/exports/U39-选择技师-就近、指定技师.png",
+      "bytes": 128846,
+      "sha256": "94cc8ae956eface6a5c80bcf26b3473fd7d3bb99766e3189357327c5cfc49813"
+    },
+    {
+      "path": "v3/exports/U40-地址管理-选择、编辑.png",
+      "bytes": 86686,
+      "sha256": "9819be978b51bdf69ccfea896fd24c5795d07eade9bae82198cb66867fdf48b5"
+    },
+    {
+      "path": "v3/exports/U41-填写地址-首次、编辑.png",
+      "bytes": 83700,
+      "sha256": "e288d7f4563ebb25121d8752fcf004e0f87527fc22ce89876e5ae5102f788d5e"
+    },
+    {
+      "path": "v3/exports/U42-填写服务对象-为本人、家人预约.png",
+      "bytes": 124481,
+      "sha256": "0dc5910efff937d489b2e9d3561cae02e6178293fec0c367cc2177fb1dc2b864"
+    },
+    {
+      "path": "v3/exports/U43-实名核验-填写、单独授权.png",
+      "bytes": 92221,
+      "sha256": "bc7173aed53163beb4f107201072993cb9ce5120af1a2cee95c0e3a740b911c9"
+    },
+    {
+      "path": "v3/exports/U44-我的-已实名.png",
+      "bytes": 82975,
+      "sha256": "6e435c8394f61c9d538758137ee00c98677f59f1f56864fa2f8f084f3b63bafd"
+    },
+    {
+      "path": "v3/exports/U45-隐私设置-查看同意记录.png",
+      "bytes": 103499,
+      "sha256": "f441e67af6232da6e44959eff6c2a19721c04830c9f5a0068081854f5aabd722"
+    },
+    {
+      "path": "v3/exports/U46-实名授权-撤回说明.png",
+      "bytes": 141342,
+      "sha256": "9ff158a6fbbe1e4cdc570886be4f8f590b0a63d318e10ed4267323c285d87830"
+    },
+    {
+      "path": "v3/exports/U47-授权结果-已撤回.png",
+      "bytes": 56639,
+      "sha256": "00a8ed6c9668a572796737a992dae4651e12f3908d7e78b2e8ffb6936556f7a9"
+    },
+    {
+      "path": "v3/exports/U48-注销账号-提交前检查.png",
+      "bytes": 128738,
+      "sha256": "2e4cf16595ba25a1d4f6edb65d826e077a6198dbd1b61826f8150509f2249887"
+    },
+    {
+      "path": "v3/exports/U49-注销结果-已注销.png",
+      "bytes": 66232,
+      "sha256": "425ec03f9dbdd52ffec3ee850955a6e9ad2668c056e062d6ba2468f80f55d2ef"
+    },
+    {
+      "path": "v3/exports/U50-安全中心-当前订单关联.png",
+      "bytes": 114305,
+      "sha256": "a71a709cd5a571ef617e0fce9e0ef1ccf58398f03d002995914a7c1714bf22af"
+    },
+    {
+      "path": "v3/exports/U51-紧急联系人-填写、编辑.png",
+      "bytes": 74331,
+      "sha256": "185c726a07aeb6838c5c45f814c5503578e5ed98c787ad1b4bc2701e6a344e80"
+    },
+    {
+      "path": "v3/exports/U52-联系客服-门店、集团.png",
+      "bytes": 104657,
+      "sha256": "1b12ef74ac5b2178792f757601e02a9a8ed157a83e6a97289846d984e6b9d814"
+    },
+    {
+      "path": "v3/exports/U53-推广邀请-待本人签署.png",
+      "bytes": 115892,
+      "sha256": "8b0c2c525299420269fb03af122c72d134e7f2d46d776d9886c4ff24d2ecc54f"
+    },
+    {
+      "path": "v3/exports/U54-推广协议-查看版本.png",
+      "bytes": 172448,
+      "sha256": "580d066f71622993908b100252af5b4669aecbb8ea64d037806474b80a2342ff"
+    },
+    {
+      "path": "v3/exports/U55-邀请结果-已拒绝.png",
+      "bytes": 45637,
+      "sha256": "d9ade5b08cdd7e1c1dea2c19716c741f9b591a11fd4f4b42cf47788dfdff1b58"
+    },
+    {
+      "path": "v3/exports/U56-申请发票-个人、企业填写.png",
+      "bytes": 111569,
+      "sha256": "cd7276dc04e3b4e16296fd7bfbc061e397a6bff4ad2a6d0bbfe1fdc15074f5aa"
+    },
+    {
+      "path": "v3/exports/U57-发票详情-待开票.png",
+      "bytes": 106324,
+      "sha256": "ca5725826f8230f9a17b0e48cc4bf419c7b8409eeb9d131ecfd03c58fc2b9458"
+    },
+    {
+      "path": "v3/exports/U58-发票详情-已开票.png",
+      "bytes": 111498,
+      "sha256": "8c5033bb843bb0b4a25d9c8e7e8913b66462bcab4008bc5d9095a9b04eb97463"
+    },
+    {
+      "path": "v3/exports/U59-发票详情-待红冲.png",
+      "bytes": 86845,
+      "sha256": "2d545b5e7cdf384e4ae4f71c4581ceee12c615d3ccae8bb5c9fa00321f7938c0"
+    },
+    {
+      "path": "v3/exports/U60-发票详情-已红冲、重开中.png",
+      "bytes": 98595,
+      "sha256": "d59606549c86f2d413ba618c620d1916f756074d94649427183c888fe49fdb56"
+    },
+    {
+      "path": "v3/exports/U61-发票详情-已驳回.png",
+      "bytes": 121427,
+      "sha256": "623b98bcdb38fabcb5ea7689cbc445cea7e57fd98a004384178ba5bb99b7cef3"
+    },
+    {
+      "path": "v3/exports/U62-提现详情-处理中.png",
+      "bytes": 89772,
+      "sha256": "d73f6e2a942d461c01bd5d173b235f41bd97b474959f43a0219038f303607699"
+    },
+    {
+      "path": "v3/exports/U63-提现详情-已到账.png",
+      "bytes": 76621,
+      "sha256": "556653868fbc2fe00d8d9a41c902ee847fa15b7b5ee25fda54853d198011de00"
+    },
+    {
+      "path": "v3/exports/U64-提现详情-失败.png",
+      "bytes": 91454,
+      "sha256": "0adcf0f96bcbe8365a541e7d4711145a5b5b5bff4f5d0188fd6468cd9ce47429"
+    },
+    {
+      "path": "v3/exports/U65-提现详情-已撤销.png",
+      "bytes": 86943,
+      "sha256": "4a95a5af740ee038339cd93fc2664e46d41f7de0a166fe9852f64f7e3c644a0f"
+    },
+    {
+      "path": "v3/exports/U66-提现详情-待确认收款.png",
+      "bytes": 124959,
+      "sha256": "0e184a696a197bd1e5646a9db3fbc68b6840fa44abfb61d518b9fcb69a43a06e"
+    },
+    {
+      "path": "v3/exports/U67-佣金明细-全状态、待扣回.png",
+      "bytes": 131950,
+      "sha256": "36215956ea58d186c992b6c711cb061cf0358ececf59d0a6d32be1d60a3de2a1"
+    },
+    {
+      "path": "v3/exports/U68-推广海报-带本人推广参数.png",
+      "bytes": 94789,
+      "sha256": "a7737c4f6aed406136df66b8c3a5f15838e753fb44a25ac75d384923502892fd"
+    },
+    {
+      "path": "v3/exports/U69-订单详情-已关闭-未支付.png",
+      "bytes": 106871,
+      "sha256": "8c9f1b6f666429341cb67ec42846b041591fc58c927e23e1b0b122640055df8d"
+    },
+    {
+      "path": "v3/exports/U70-订单详情-已完成-售后期已过.png",
+      "bytes": 145017,
+      "sha256": "258e94ea67d80361e5254819e2cc03d6979dacb28b35512458b63625b5a2c676"
+    },
+    {
+      "path": "v3/exports/U71-订单详情-已完成-评价与开票期限已过.png",
+      "bytes": 144338,
+      "sha256": "3a0ed5a3bd3d876bcb0259813eb1b7c0c8b88d8d91abec817f9391651de51ad7"
+    },
+    {
+      "path": "v3/exports/U72-退款进度-退款执行中.png",
+      "bytes": 138221,
+      "sha256": "14d0fc9170b96342080a0328b3479ed327dcd55b7fe171742a6f3261c50844fe"
+    },
+    {
+      "path": "v3/exports/U73-退款进度-退款成功.png",
+      "bytes": 112972,
+      "sha256": "7d959a94203de7a91e7c425992e1a64f5e40c907be80cd64255b8908b953795b"
+    },
+    {
+      "path": "v3/exports/U74-售后进度-门店驳回-待用户确认.png",
+      "bytes": 120594,
+      "sha256": "47d2333b307447ebff888d4feab65e394f4f0043a4150ae9472c926839e09103"
+    },
+    {
+      "path": "v3/exports/U75-售后进度-已撤销.png",
+      "bytes": 103964,
+      "sha256": "19c82de0a023a083149f4cfa24754d8be17551a286f59f461d2a506d403390f8"
+    },
+    {
+      "path": "v3/exports/U76-售后进度-已完成-用户接受门店驳回.png",
+      "bytes": 112418,
+      "sha256": "c7e8b6a726bbeef6ccfcc40be6f97f876d6e2edcd0cf129ed73b2f904e640606"
+    },
+    {
+      "path": "v3/exports/U77-售后进度-已完成-集团裁决驳回.png",
+      "bytes": 128859,
+      "sha256": "535699240a8ca77fa36f6ed81e0dc18f22a87b614c1a220a4608141950a10d7e"
+    },
+    {
+      "path": "v3/exports/U78-改约-改地址-原门店范围内.png",
+      "bytes": 137185,
+      "sha256": "08d9a81d1d4816ce2e4e10427cd9d5141f0b64967269ce5f8873e6843cba4490"
+    },
+    {
+      "path": "v3/exports/U79-改约-改地址-超出原门店范围.png",
+      "bytes": 144922,
+      "sha256": "9a30100e968f592a940a121caf7ced389674af600ffc085828acef0efd3024a2"
+    },
+    {
+      "path": "v3/exports/U80-改约-已用完改约次数.png",
+      "bytes": 111614,
+      "sha256": "6feeb52742453d1d16a663a321c76fba375f0aa81b404a231dc8752929621c0a"
+    },
+    {
+      "path": "v3/exports/U81-订单详情-加钟不可用-后续时段冲突.png",
+      "bytes": 129339,
+      "sha256": "bb4c2c7143cdf3c5cbce835d4f194b2006aa4839b7724d3c9630b377dffd6237"
+    },
+    {
+      "path": "v3/exports/U82-订单详情-加钟不可用-已达次数上限.png",
+      "bytes": 131891,
+      "sha256": "b0cda435a7140b3e53983cd1ab25bbaaa7d71542b701ea2ae108b33c67bb852a"
+    },
+    {
+      "path": "v3/exports/U83-订单详情-加钟支付超时.png",
+      "bytes": 134772,
+      "sha256": "5fbcb91f744e54348b58b41c76a73df5fe831ad0994b3c1affee0bdb486b3b4b"
+    },
+    {
+      "path": "v3/exports/U84-安全求助-已发出-待接报.png",
+      "bytes": 167906,
+      "sha256": "9da979d0e49292aa75dbaa0b0acb87f806a30b9d5bd40e2a8adb0571f0eebca5"
+    },
+    {
+      "path": "v3/exports/U85-安全求助-3 分钟无人确认-已升级.png",
+      "bytes": 149268,
+      "sha256": "f5c8f9fba33bc4bd0151ae5e0dc3c0ec66a5bfadabd817be5ecd3b1990e98b62"
+    },
+    {
+      "path": "v3/exports/U86-安全求助-6 分钟无人确认-无人响应.png",
+      "bytes": 162554,
+      "sha256": "fbbe08e91a19c26cb5c43ed623eda7f40454461726d27d5278b0c1184c43a7c0"
+    },
+    {
+      "path": "v3/exports/U87-安全求助-已结案-展示处理结果.png",
+      "bytes": 149021,
+      "sha256": "b377b6dad5dc18628cdbe591e2701e310837c7d5c4cfd033483957832fe42901"
+    },
+    {
+      "path": "v3/exports/U88-首页-加载中-骨架屏.png",
+      "bytes": 31196,
+      "sha256": "d59e65b2381f536e76706ccacc683433c308bf0d4174067e9a9daaff4e9bc7db"
+    },
+    {
+      "path": "v3/exports/U89-选择时段-当前技师暂无可约时段.png",
+      "bytes": 70910,
+      "sha256": "a0187907f352e3469bbec97a8ba38a7e5867e1c6bf0df4a73f32cec5a792f909"
+    },
+    {
+      "path": "v3/exports/U90-确认订单-健康告知未勾选.png",
+      "bytes": 157800,
+      "sha256": "5853555f454432df3d728a8d531d2f7189b7bafaeeb87a6a1d720297456b5ccd"
+    },
+    {
+      "path": "v3/exports/U91-健康告知-未成年或禁忌人群-阻止下单.png",
+      "bytes": 101976,
+      "sha256": "e006de4ab20bba5a4d456e07cf12682a1a02dfcdf538ec043de1b603e7d9a781"
+    },
+    {
+      "path": "v3/exports/U92-预约受限-身份信息授权已撤回.png",
+      "bytes": 78408,
+      "sha256": "65d99ba452b247cf14fcbcb16f671aebc9b52fac08bf462211fe57edbce17d61"
+    },
+    {
+      "path": "v3/exports/U93-支付结果核验-支付超期-核验中.png",
+      "bytes": 90898,
+      "sha256": "1e7f80fdca1bebe1656500310a825ef818989c2dd297356bb0a4d86e9a1a14e1"
+    },
+    {
+      "path": "v3/exports/U94-补充材料-填写说明.png",
+      "bytes": 62744,
+      "sha256": "3e2b71f5c73b8fedeea4cdd5da8bcdfe27f16748943d3c0eaebeebd9137e1fb1"
+    },
+    {
+      "path": "v3/exports/U95-评价结果-已提交.png",
+      "bytes": 59104,
+      "sha256": "cf078dd5b8010c713cd8c845553646e8d296258ce500fa6b5e1dc308fab6238f"
+    },
+    {
+      "path": "v3/extra-pages.js",
+      "bytes": 4971,
+      "sha256": "cfda63088fd76ef035b9b657f424874c7d012ab5aeb735cc603fbf2c4666fd48"
+    },
+    {
+      "path": "v3/flow.js",
+      "bytes": 46263,
+      "sha256": "54ac187ab13788b5361125bb3fcf7fe79c282c035803b899f45a5b4c6c7ba978"
+    },
+    {
+      "path": "v3/index.html",
+      "bytes": 4824,
+      "sha256": "679c9ffb03d3f25c192d588ab05ae3e97a0d89fa8f56d9788e6489ec0616e629"
+    },
+    {
+      "path": "v3/integration.js",
+      "bytes": 40897,
+      "sha256": "3d0abf3683402cb586137c5cdb6a2174c3b43cb1e297384738bcd1a10a3a126f"
+    },
+    {
+      "path": "v3/README.md",
+      "bytes": 640,
+      "sha256": "520030c880bb756268c8f1d317ec543b5db8f82df71b6632053f19fb86d4b91c"
+    },
+    {
+      "path": "v3/screens.js",
+      "bytes": 13479,
+      "sha256": "da533efdfcf6b1d840d1c44b0fced732bbdda2e244f940d66e7d4410c2c0d7ee"
+    },
+    {
+      "path": "v3/staff-pages.js",
+      "bytes": 40834,
+      "sha256": "b0ca83042fbfc2ccab0c42511901ce3eaad1e5abcd7b0eb43b586a0c6e42856b"
+    },
+    {
+      "path": "v3/status-pages.js",
+      "bytes": 27815,
+      "sha256": "0a4391c00597c5cf5902f0b001e1acdb074696c7cc3b8dca36b006d72351bbc2"
+    },
+    {
+      "path": "v3/user-pages.js",
+      "bytes": 34766,
+      "sha256": "a5021da41d920d5c903b236459c067fffb54b8a050b06ee4a6cb511439f51fc8"
+    },
+    {
+      "path": "v3/vendor/LICENSE",
+      "bytes": 3208,
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57"
+    },
+    {
+      "path": "v3/vendor/lucide.min.js",
+      "bytes": 397450,
+      "sha256": "ab85225ecc1daa2033607856f03dd2dabcbc08e2d260a5b97e17c690aa929766"
+    },
+    {
+      "path": "v4/app.css",
+      "bytes": 31567,
+      "sha256": "907731b3124c3ef601a194e00e070325099b66385744e18791d5112236b59a88"
+    },
+    {
+      "path": "v4/app.html",
+      "bytes": 622,
+      "sha256": "871e9fa44239f2cfbaccdf16d401435f158db8f1faf1d92ad5caf86d6cc2aa07"
+    },
+    {
+      "path": "v4/app.js",
+      "bytes": 1350,
+      "sha256": "e3d8fb9f2c384f47f07a4bc36b4b7cb686268805d5230f5fd06f9ad703f27b3c"
+    },
+    {
+      "path": "v4/booking.css",
+      "bytes": 4269,
+      "sha256": "2cf3a55153a4e9f4048e7db78019355853e4a98ff27ff317eb3d4024c48c9723"
+    },
+    {
+      "path": "v4/catalog.js",
+      "bytes": 763,
+      "sha256": "a993c84bf41dddae0ec9516b2dea35479d164844e221e50dbde4c5838eea1c17"
+    },
+    {
+      "path": "v4/components.js",
+      "bytes": 4724,
+      "sha256": "af78550f76dbeb5c650e0ee39c15cb6b32434a8cd665c8502b9d0ea02b05bff7"
+    },
+    {
+      "path": "v4/coverage.md",
+      "bytes": 745,
+      "sha256": "822112646a32343e1c801d8a92124afb8643a9db197454780a821eedb8426384"
+    },
+    {
+      "path": "v4/data.js",
+      "bytes": 4591,
+      "sha256": "3924097cb86c91ed769fd93dd02a750748b6ea10e78aba0185864a93ae603893"
+    },
+    {
+      "path": "v4/demo.html",
+      "bytes": 5596,
+      "sha256": "e39291c04c05ec29186bfba92910543d19ff6004bbb253cd7e475bf8cfdf2ce2"
+    },
+    {
+      "path": "v4/exports/00-总览-01-用户 · 预约.png",
+      "bytes": 965086,
+      "sha256": "e3513686d4a503df9c18c34bc8d769a29184b33ab8a328c2a58af3f05cd3fab5"
+    },
+    {
+      "path": "v4/exports/00-总览-02-用户 · 预约与变更.png",
+      "bytes": 414560,
+      "sha256": "5295518241bd364dab81ae15bb601fc589338f1f96590a08a4357b910ac1b852"
+    },
+    {
+      "path": "v4/exports/00-总览-03-用户 · 退款与售后.png",
+      "bytes": 498098,
+      "sha256": "bf239446bb210ad66ec2b3b637c2313fe8dab4b546aa3f863d4be21a3e63468b"
+    },
+    {
+      "path": "v4/exports/00-总览-04-用户 · 账户与资金.png",
+      "bytes": 402449,
+      "sha256": "304815c0aa098c343a63d2d1f7f20f336a7ba778ddd69a566ab5ce2521ecd380"
+    },
+    {
+      "path": "v4/exports/00-总览-05-预约工作台.png",
+      "bytes": 76127,
+      "sha256": "f18160dd0f47a92537a475de807c7e6a6f1ed05969c954b0f8991afc6b3370f1"
+    },
+    {
+      "path": "v4/exports/00-总览-06-预约处理.png",
+      "bytes": 431193,
+      "sha256": "3f5f8fdecf86a2c874e5ab8ec690aa1442f4072336e8526edaf484e80a0fc4c8"
+    },
+    {
+      "path": "v4/exports/00-总览-07-异常处理.png",
+      "bytes": 161782,
+      "sha256": "b26739b15f6c3d6cb5dc9ac284af5aed76c11bc8c38db1aacf1f0cf26d1e253b"
+    },
+    {
+      "path": "v4/exports/00-总览-08-排班请假.png",
+      "bytes": 370443,
+      "sha256": "a55a3756755a147099e401aec9309fba4784802ca42f0d0d5f90b222ca6363b8"
+    },
+    {
+      "path": "v4/exports/00-总览-09-个人资料.png",
+      "bytes": 120328,
+      "sha256": "239ce1a77b633adfdf2bb8a8f2f02b67ca56cc56f186c86da397a583b41f83f5"
+    },
+    {
+      "path": "v4/exports/00-总览-10-收入结算.png",
+      "bytes": 69581,
+      "sha256": "ef5ff5f03f1617603bac26fef603a9174f774a8979fdbff609ecb730be2d5628"
+    },
+    {
+      "path": "v4/exports/00-总览-11-门店工作台.png",
+      "bytes": 86455,
+      "sha256": "802df763ff5d3d09f575cbd9105d80ac75f73ccebdeee08f1664b91bbf6905d9"
+    },
+    {
+      "path": "v4/exports/00-总览-12-预约安排.png",
+      "bytes": 165138,
+      "sha256": "063b186e73a6bf59647e4d668a6d91488674f3eb03155919cc7320c0f414156d"
+    },
+    {
+      "path": "v4/exports/00-总览-13-预约变更.png",
+      "bytes": 307186,
+      "sha256": "1f24f30d58563935441e1ce1957651b27b33f304f3cd469f180cd7b1ecde5687"
+    },
+    {
+      "path": "v4/exports/00-总览-14-售后处理.png",
+      "bytes": 185410,
+      "sha256": "70d5026bbbd21a1cecd754ce5de34b173b25c0e65eda0713227c5f974aca742f"
+    },
+    {
+      "path": "v4/exports/00-总览-15-客服协助.png",
+      "bytes": 155799,
+      "sha256": "04537d1d5d59aef6fc5621fae06dea0aa5e414bd8c9b329732047ca4ebb441d7"
+    },
+    {
+      "path": "v4/exports/00-总览-16-权限边界.png",
+      "bytes": 62704,
+      "sha256": "213f1f954d3169de3d5fba56e0a410261adab5efe2a4b8ef22df86c7b96c2f35"
+    },
+    {
+      "path": "v4/exports/S01-门店看板-经营工作台.png",
+      "bytes": 110270,
+      "sha256": "beb2c92fb0c61e18987007925251f7c050643bc389beaf77ff9406f6d2faaf8d"
+    },
+    {
+      "path": "v4/exports/S02-待安排预约-待门店安排.png",
+      "bytes": 137607,
+      "sha256": "a50fa95bc687e6e8de94ce0c19efc3284eebbdfc10413176a3101b9e89e1ed47"
+    },
+    {
+      "path": "v4/exports/S03-选择预约技师-门店派单.png",
+      "bytes": 132469,
+      "sha256": "6f5a192fc2270a37e25046dd08907f11343ff644d9332075bf515eea5aa4ac9f"
+    },
+    {
+      "path": "v4/exports/S04-改派预约技师-填写调整方案.png",
+      "bytes": 133001,
+      "sha256": "64bb6b2e87917ed0ec3c826e5a94f25a4083c7edbd0798c73b8f36b23f1f017e"
+    },
+    {
+      "path": "v4/exports/S05-改派待确认-等待用户确认.png",
+      "bytes": 140221,
+      "sha256": "47bc69d54f23530e63ddcc1c620c0b0d88847ea0ea7cf6b384d72b69d8a48f7c"
+    },
+    {
+      "path": "v4/exports/S06-改派结果-结果记录.png",
+      "bytes": 115551,
+      "sha256": "b11c99acb2af7366052994ae2e5cb48c88b922c72c8aa4b7b983342593518538"
+    },
+    {
+      "path": "v4/exports/S07-调整预约时间-填写调整方案.png",
+      "bytes": 107209,
+      "sha256": "63393f16f0b04ea758d815ad96fb461326aef128301064358aee8a4b38b6f17a"
+    },
+    {
+      "path": "v4/exports/S08-改约待确认-等待用户确认.png",
+      "bytes": 134188,
+      "sha256": "55c56255a0aa87c3589ac4049d46946169b9327afca9f805254296d6faa62205"
+    },
+    {
+      "path": "v4/exports/S09-售后处理-待门店处理.png",
+      "bytes": 132664,
+      "sha256": "2afdc8b70006164f1b11d8446132aa43eed245682c7e78a6b582e66534cc390a"
+    },
+    {
+      "path": "v4/exports/S10-退款方案待确认-等待用户确认.png",
+      "bytes": 138874,
+      "sha256": "833dea190113966031d762e71ada0bf2243d5e37a92da8985d0c84a6e2d77776"
+    },
+    {
+      "path": "v4/exports/S11-售后结果-结果记录.png",
+      "bytes": 128013,
+      "sha256": "38ed4a3ef0d073d549544a84e2f67ffe853bac16230f942656536c7cf89a8abd"
+    },
+    {
+      "path": "v4/exports/S12-门店排班-排班总览.png",
+      "bytes": 97146,
+      "sha256": "24becfdbf8d7405971a9a3aaf60b2c3f7f99bf3be5c5af40a9ce64ec9044b5da"
+    },
+    {
+      "path": "v4/exports/S13-处理请假-待门店确认.png",
+      "bytes": 137069,
+      "sha256": "1e6911245b1bd14b382006e54f64b39bfcbba20da773cf0ccf79baa1ee653a12"
+    },
+    {
+      "path": "v4/exports/S14-请假处理结果-结果记录.png",
+      "bytes": 99050,
+      "sha256": "c9f503a7686f73defb5c479400ee2696b85ce79e67189d9076190aec5ddb866c"
+    },
+    {
+      "path": "v4/exports/S15-客服待办-待门店处理.png",
+      "bytes": 125095,
+      "sha256": "7f4c41abe07ba3040e1e2bc010fbc5ddc4eb85f0a4a13dc7090d5d6df957bafb"
+    },
+    {
+      "path": "v4/exports/S16-客服处理结果-结果记录.png",
+      "bytes": 130863,
+      "sha256": "8786b4c5d4b9fab5535091059cfea19ef6b5fa3456d44d6a425e138e6300539c"
+    },
+    {
+      "path": "v4/exports/S17-暂无操作权限-非本门店记录.png",
+      "bytes": 72108,
+      "sha256": "56c1b6d6df8223a77945021c40f3a36719ff49a33e2ea2f10b434878c99235ef"
+    },
+    {
+      "path": "v4/exports/T01-我的预约-工作台.png",
+      "bytes": 101005,
+      "sha256": "5d54f1b586083080848b63a4c14b9230c4ac9e19881d3a4efb65dd80f889792e"
+    },
+    {
+      "path": "v4/exports/T02-预约待确认-待技师确认.png",
+      "bytes": 148780,
+      "sha256": "e5a58d4130128be662efb9b923c8181515fd3e9d10376289c195d057700fe0d4"
+    },
+    {
+      "path": "v4/exports/T03-已确认预约-等待开始.png",
+      "bytes": 133822,
+      "sha256": "ea2460aaa7fa87b299dd593fa3a9e75a30f77520ca6a74f1a2e852ba41773a82"
+    },
+    {
+      "path": "v4/exports/T04-预约进行中-计时中.png",
+      "bytes": 113538,
+      "sha256": "44c805fd5a8c610d9fab09b35aa8f4f36c1305b1c82881b26da60b6008e05335"
+    },
+    {
+      "path": "v4/exports/T05-预约已完成-等待结算.png",
+      "bytes": 135912,
+      "sha256": "c354dd277c307bdc05e56219db2dec8f4a5d9583985a26e16610154a17a1b1cb"
+    },
+    {
+      "path": "v4/exports/T06-客服处理-处理中.png",
+      "bytes": 135733,
+      "sha256": "1dcf6a86d3c7582a70a768f10a7ffee9f9ec8efd7648b3284b4828a3450025cc"
+    },
+    {
+      "path": "v4/exports/T07-预约已关闭-关闭结果.png",
+      "bytes": 130992,
+      "sha256": "78f24a59b68f5d17df68b310932c6c6f97f6eb00902d9955447c83596e598816"
+    },
+    {
+      "path": "v4/exports/T08-加钟待支付-等待用户支付.png",
+      "bytes": 117567,
+      "sha256": "a6df6c1b35bcb4c01f1d201a822007e8468f4948a7f9a4b251c3371b605a46bc"
+    },
+    {
+      "path": "v4/exports/T09-结束记录-完成确认.png",
+      "bytes": 120903,
+      "sha256": "f08906ff9325eab584f071bfc5bbc1c430e59efb684d16d725e9631409b97caa"
+    },
+    {
+      "path": "v4/exports/T10-提前结束-填写原因.png",
+      "bytes": 120027,
+      "sha256": "f641f5561051b191e5cf9abb16e23f58e837ff4a59803a5cac07aae83449f5f2"
+    },
+    {
+      "path": "v4/exports/T11-我的排班-排班总览.png",
+      "bytes": 103004,
+      "sha256": "a0842846648a989c2e8ef51a7a6cfd936895ff2da29931bbb6168958257d988e"
+    },
+    {
+      "path": "v4/exports/T12-编辑排班-填写工作时间.png",
+      "bytes": 69987,
+      "sha256": "761900133c13e7dab392f4cfa9efc5664662c7f988b37566a0e02f1b91ab970f"
+    },
+    {
+      "path": "v4/exports/T13-申请请假-填写申请.png",
+      "bytes": 79750,
+      "sha256": "7e38fb7b9bc49bfdd205085b689e4e2ac88c3c15d3d17cf4351e4485e6a039d7"
+    },
+    {
+      "path": "v4/exports/T14-请假进度-门店处理中.png",
+      "bytes": 89362,
+      "sha256": "51d0926bf1782ee1ce6f00944982955dba6acd9c8938521a7b7a01a53a94eb05"
+    },
+    {
+      "path": "v4/exports/T15-个人资料-资料总览.png",
+      "bytes": 111845,
+      "sha256": "a58f2a45608422320b7624182f467e880d6df108a049ff37c38b4ac206ae075e"
+    },
+    {
+      "path": "v4/exports/T16-完善资料-填写并上传.png",
+      "bytes": 80935,
+      "sha256": "e94ab530bf8dc69312a579e5983adc671ef294712a4bc845a215448b2806fb4b"
+    },
+    {
+      "path": "v4/exports/T17-收入明细-资金状态.png",
+      "bytes": 92224,
+      "sha256": "6b0964ed5d498b604ebdc4b45acfcec5f811f4b9534015622dab8235e342c209"
+    },
+    {
+      "path": "v4/exports/U01-首页-附近可约.png",
+      "bytes": 133621,
+      "sha256": "93c395cd8afd30d42b883369b62d52d676a8ba2c4833a84eb3fe2ce174892a06"
+    },
+    {
+      "path": "v4/exports/U02-选择片区-定位、手动.png",
+      "bytes": 88054,
+      "sha256": "3f223ebda1fd68a02c81a532238c0c9f27356c4073e7115aa4250ebadf31b2a0"
+    },
+    {
+      "path": "v4/exports/U03-位置权限-未授权.png",
+      "bytes": 73778,
+      "sha256": "07554f7c91cafb818f6016d633df4ef1841b05469200ede31aeb5b1bca7bd6e3"
+    },
+    {
+      "path": "v4/exports/U04-当前片区-暂不可约.png",
+      "bytes": 57441,
+      "sha256": "b1fbadf34190d33d8aae31d839a62cdc509877432577d50e20fb8d0c64dab631"
+    },
+    {
+      "path": "v4/exports/U05-选择门店-附近优先.png",
+      "bytes": 85236,
+      "sha256": "7c6ead64e2ec0fdce5cf2c6e2927973fd6a66c6d6a4c770f67e490831df238d5"
+    },
+    {
+      "path": "v4/exports/U06-门店详情-项目与技师.png",
+      "bytes": 113692,
+      "sha256": "2e98a02571f827a4b4662c52c6335aa0a869df9ea2988a38f3998b0b37798227"
+    },
+    {
+      "path": "v4/exports/U07-项目详情-时长与总价.png",
+      "bytes": 131828,
+      "sha256": "9b6d809bbac2b20ff9d0e4a1690396c61b07ea6d2ea94d3345284714ae616ac9"
+    },
+    {
+      "path": "v4/exports/U08-选择技师-就近、指定.png",
+      "bytes": 106148,
+      "sha256": "7d68e3c33596fce46f295945339a22e14c7ef079ea2231b1d7548c7cb6d173ae"
+    },
+    {
+      "path": "v4/exports/U09-技师档案-资质与评价.png",
+      "bytes": 98462,
+      "sha256": "1608949d4cf310fc5918ce0e3a2b12945f5082e70b27e614dfdf0ebc3f1c4dbf"
+    },
+    {
+      "path": "v4/exports/U10-选择时间-总价直接显示.png",
+      "bytes": 114799,
+      "sha256": "6e5060a4a22bbc5f9d8259e8da536b67bdb8062164668aa8ba262c434b468b02"
+    },
+    {
+      "path": "v4/exports/U11-选择时间-暂无可约.png",
+      "bytes": 56922,
+      "sha256": "8aecf1dc8f068a0928461c1b1f41b7d1a7439701d5894f66a92d001778e27d89"
+    },
+    {
+      "path": "v4/exports/U12-预约联系人-本人、家人.png",
+      "bytes": 109589,
+      "sha256": "6f973903ba3a699795fdf40fec5e4b80df3440745e2a0ecb939b49ebe23ac8db"
+    },
+    {
+      "path": "v4/exports/U13-实名核验-单独同意.png",
+      "bytes": 83325,
+      "sha256": "7b28dabce55933f8dcbf65e49dc994fd2792aab23005d4df6f894ac42e865616"
+    },
+    {
+      "path": "v4/exports/U14-实名信息授权-用途与撤回.png",
+      "bytes": 86912,
+      "sha256": "7f462afe40fde83021f901fded3a02cb35a8fcc4d94c7d830a705de8a6d80ae0"
+    },
+    {
+      "path": "v4/exports/U15-健康告知-首次完整告知.png",
+      "bytes": 110332,
+      "sha256": "5d1ca25ac5e7054de1e2680474964360404ed9b7a249f3eb33e143ead4b1fb13"
+    },
+    {
+      "path": "v4/exports/U16-确认预约-待支付.png",
+      "bytes": 148914,
+      "sha256": "8d9e1efd0424afa2bab7992eda99e933547ccb04729c93965371eb68fd716146"
+    },
+    {
+      "path": "v4/exports/U17-支付结果-支付成功.png",
+      "bytes": 118961,
+      "sha256": "7fb699b363d22930012cce0bd3ab738e74587a8c60b0dd45662d0c285e68e1ad"
+    },
+    {
+      "path": "v4/exports/U18-预约已关闭-支付超时.png",
+      "bytes": 101261,
+      "sha256": "26e739ba6c08e839acf828e3c448d030ecc103447680ce42621302cd3f5ee835"
+    },
+    {
+      "path": "v4/exports/U19-我的预约-当前预约.png",
+      "bytes": 55501,
+      "sha256": "b0cd96088db4937c8ea5b3d58faa5e36eff5e5789de2ccb091097b4e181e28b3"
+    },
+    {
+      "path": "v4/exports/U20-预约详情-等待确认.png",
+      "bytes": 116917,
+      "sha256": "01625d09ee95aa5bbe5de7d4a6490419617dc6380425f9315244852827851e87"
+    },
+    {
+      "path": "v4/exports/U21-预约详情-已确认.png",
+      "bytes": 103629,
+      "sha256": "660915b3c571d0022c5a04e0edc6c8c22858121e27895f55c629089f95002b8b"
+    },
+    {
+      "path": "v4/exports/U22-预约详情-进行中.png",
+      "bytes": 117503,
+      "sha256": "8493834ffb37ba0fe16d57c658f81a0e316624aca9acbe6c3096571c024b934f"
+    },
+    {
+      "path": "v4/exports/U23-预约详情-已完成.png",
+      "bytes": 98938,
+      "sha256": "c173e2e169d5d843bf1ada8121d768c37bb4a0d4f7194cb8182edeb13cc1a203"
+    },
+    {
+      "path": "v4/exports/U24-预约详情-门店与客服处理中.png",
+      "bytes": 104902,
+      "sha256": "db0d707b473064d4602c50de1aea3f8340d0c350a4b6e7ee934919ac9f3363ed"
+    },
+    {
+      "path": "v4/exports/U25-改约-同价时段.png",
+      "bytes": 111108,
+      "sha256": "753c581075f1b55bfa40f241a835626de18d1d9f79d158df81ee275c5a70aafd"
+    },
+    {
+      "path": "v4/exports/U26-技师调整确认-指定技师变更.png",
+      "bytes": 118139,
+      "sha256": "72fc8d4dd7b1e86e90d5e5f18d4e0a4659e424d3de37422d955e71b2ac2747a1"
+    },
+    {
+      "path": "v4/exports/U27-时间调整确认-门店发起.png",
+      "bytes": 119001,
+      "sha256": "08be8a80b1f25cf13e5b3f645458ca92c81a3f963d91ffa3ae1cdc923fd29168"
+    },
+    {
+      "path": "v4/exports/U28-取消预约-显示金额.png",
+      "bytes": 111441,
+      "sha256": "83f8d7d079c443263920b1bc77e2f1e09f55ba547e90a0e446ae8cd4faae4af4"
+    },
+    {
+      "path": "v4/exports/U29-预约详情-已取消.png",
+      "bytes": 117027,
+      "sha256": "7448f23b3804ed1e448ec002bcbea74520f4be6681fdcb0797345474c746b0e0"
+    },
+    {
+      "path": "v4/exports/U30-退款进度-处理中.png",
+      "bytes": 112135,
+      "sha256": "d759072cf4d2a1b06219ff08e7a9fcf76c788e8f147e706208bd6e73622d9bfc"
+    },
+    {
+      "path": "v4/exports/U31-退款进度-退款未完成.png",
+      "bytes": 132712,
+      "sha256": "873ad7023957c0b1e0da3bdfe996d408a2f9985741a26dfd62eeb8ebc20fe713"
+    },
+    {
+      "path": "v4/exports/U32-退款结果-已到账.png",
+      "bytes": 100889,
+      "sha256": "eaa4aea9018781f1692a5462e950173a056202673b4803910877d57db7e17ea7"
+    },
+    {
+      "path": "v4/exports/U33-申请售后-分别填写付款诉求.png",
+      "bytes": 103755,
+      "sha256": "1fcb7cd71d5dd6226f1e4bd8f596e91cfd964581f30fa3b7a34af6b1338ef341"
+    },
+    {
+      "path": "v4/exports/U34-售后进度-门店、集团处理中.png",
+      "bytes": 104231,
+      "sha256": "f37440771973b45347e831a1dfdd5355015a8ba3991550ac33d23503c1e523ac"
+    },
+    {
+      "path": "v4/exports/U35-售后进度-用户确认方案.png",
+      "bytes": 88304,
+      "sha256": "16d4045e358b94470a729d6fbcadbc1134df7a56efa97ade7f1c4243d6659b3b"
+    },
+    {
+      "path": "v4/exports/U36-售后结果-已完成、驳回.png",
+      "bytes": 99068,
+      "sha256": "282ca019bfa72aa30d72053d65fb52ff15f07f281b49de2e37cfae928b2d26c8"
+    },
+    {
+      "path": "v4/exports/U37-评价-一次提交.png",
+      "bytes": 106287,
+      "sha256": "3732237bfc1c741fbc6c628c8fec95188f3a179f924b53e41c7b23f8f767c932"
+    },
+    {
+      "path": "v4/exports/U38-我的-账户与常用入口.png",
+      "bytes": 69957,
+      "sha256": "966c3fbff575eab7b220116ad863b51ea2ce60c248e3a4cd2fefe9cb9012418c"
+    },
+    {
+      "path": "v4/exports/U39-隐私设置-查看、撤回、恢复.png",
+      "bytes": 72049,
+      "sha256": "cffa87ccbd543554e6c3e53438316242b9af4337d615d09cb7b48b26b636e4f9"
+    },
+    {
+      "path": "v4/exports/U40-账号状态-限制、已注销.png",
+      "bytes": 78850,
+      "sha256": "f22136a892636ccea49148698da4f79d2558fc60184397cdd7dd3e8039c2bbb0"
+    },
+    {
+      "path": "v4/exports/U41-注销账号-未完事项检查.png",
+      "bytes": 96095,
+      "sha256": "b3edd9fa57d3a8b45a855e0a5f7ea599658b5354a3e9e2e7f71ad3e89ade8167"
+    },
+    {
+      "path": "v4/exports/U42-申请发票-个人、企业.png",
+      "bytes": 78788,
+      "sha256": "2ab14de6d6e35dce20cab727107a31bb29b892ce5aa61b271ffe6f49a13574ea"
+    },
+    {
+      "path": "v4/exports/U43-发票详情-申请与处理结果.png",
+      "bytes": 64827,
+      "sha256": "21a612d928723ef89ae2091c657baa45f2484d5df51548cb6c3e12ac48915195"
+    },
+    {
+      "path": "v4/exports/U44-推广中心-身份、佣金.png",
+      "bytes": 127777,
+      "sha256": "66237b960987998ee2021f7196aec8126f602f9b6559305131c5a62b4e967f83"
+    },
+    {
+      "path": "v4/exports/U45-提现-提交、收款授权.png",
+      "bytes": 81439,
+      "sha256": "0de8fc7b00107ac220cbf621514668e3526f05f38ef78688f4bdc6aec16729f7"
+    },
+    {
+      "path": "v4/exports/U46-提现结果-处理中、成功、失败、撤销.png",
+      "bytes": 57561,
+      "sha256": "89843888a91fea8a9cb8b1173aa2e55a3d71a51adfbe7275ebac6bd79accc8b9"
+    },
+    {
+      "path": "v4/index.html",
+      "bytes": 4818,
+      "sha256": "71f25b45eeb224109853eb0cdc08154328972582ab9e7a764037932e42c16c7f"
+    },
+    {
+      "path": "v4/README.md",
+      "bytes": 633,
+      "sha256": "602c1c0b3ff96cc4a8a6d03ad332c68a388871de741d26f1e78b130c78783e01"
+    },
+    {
+      "path": "v4/runtime.js",
+      "bytes": 41639,
+      "sha256": "db0fc22f2bb6c39cfe92b5d995126dc831a516cbfcd3d00f2001b50da0f1e118"
+    },
+    {
+      "path": "v4/staff-pages.js",
+      "bytes": 39877,
+      "sha256": "2306f8c7e3425023e49bc19f6ef524bd535a86a95b4099d6784e896a2d40ea7f"
+    },
+    {
+      "path": "v4/user-pages.js",
+      "bytes": 44708,
+      "sha256": "ee8009776d02fe274631ead2554334d64b048497841a9897c048ee8729a8b13e"
+    },
+    {
+      "path": "v4/vendor/lucide.min.js",
+      "bytes": 397450,
+      "sha256": "ab85225ecc1daa2033607856f03dd2dabcbc08e2d260a5b97e17c690aa929766"
+    }
+  ]
+}

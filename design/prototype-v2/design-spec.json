@@ -1,0 +1,67 @@
+{
+  "version": "v0.2",
+  "baseline": "docs v0.2",
+  "status": "第二版原型和效果图已完成，待用户确认风格",
+  "purpose": "让预约和履约操作成为页面中心",
+  "aesthetic": "日常生活服务，功能导向；白底、紧凑列表、分隔线、有限品牌色",
+  "palette": {
+    "brand": "#C94F35",
+    "surface": "#FFFFFF",
+    "background": "#F5F6F7",
+    "ink": "#25282D",
+    "muted": "#737A83"
+  },
+  "font": "Microsoft YaHei，PingFang SC",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "primaryButtonHeight": 48,
+  "skillDecision": "按用户对真实应用风格的要求，采用frontend-design允许的常规字体、熟悉布局和组件；覆盖ui-design对系统字体、对称布局和网格的泛化禁令。",
+  "pages": [
+    "用户首页",
+    "预约确认",
+    "技师工作台",
+    "门店派单"
+  ],
+  "requirements": [
+    "一期仅上门，一口价含交通",
+    "付款前显示具体技师与时段",
+    "技师接拒单倒计时和到达打卡",
+    "店长本店派单与安全接报",
+    "修改地址/时段后重新校验示例",
+    "过期状态不可继续操作",
+    "接报与结案分开"
+  ],
+  "deliverables": [
+    "可离线打开的HTML原型",
+    "4张统一尺寸PNG",
+    "四页总览PNG",
+    "浏览器验证记录"
+  ],
+  "constraints": [
+    "仅设计原型和演示状态，无真实支付、通话或后台连接",
+    "沿用四页范围，以弹层展示相关交互",
+    "姓名、门店、地址、价格、资质字段是示例",
+    "没有获批人物照片，使用姓名头像占位；上线素材需替换",
+    "保留旧版"
+  ],
+  "checklist": [
+    {
+      "item": "四页重新设计",
+      "state": "complete"
+    },
+    {
+      "item": "预约、接单和告警状态交互",
+      "state": "complete"
+    },
+    {
+      "item": "浏览器检查主按钮布局、尺寸及溢出",
+      "state": "complete"
+    },
+    {
+      "item": "导出PNG并检查",
+      "state": "complete"
+    }
+  ]
+}

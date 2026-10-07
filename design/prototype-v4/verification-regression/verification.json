@@ -1,0 +1,717 @@
+{
+  "startedAt": "2026-10-01T10:13:41.060Z",
+  "base": "http://127.0.0.1:4184/",
+  "widths": [
+    320,
+    390,
+    430
+  ],
+  "catalog": [
+    {
+      "id": "u-home",
+      "role": "user",
+      "title": "首页",
+      "state": "附近可约"
+    },
+    {
+      "id": "u-region",
+      "role": "user",
+      "title": "选择片区",
+      "state": "定位 / 手动"
+    },
+    {
+      "id": "u-location-denied",
+      "role": "user",
+      "title": "位置权限",
+      "state": "未授权"
+    },
+    {
+      "id": "u-no-coverage",
+      "role": "user",
+      "title": "当前片区",
+      "state": "暂不可约"
+    },
+    {
+      "id": "u-stores",
+      "role": "user",
+      "title": "选择门店",
+      "state": "附近优先"
+    },
+    {
+      "id": "u-store-detail",
+      "role": "user",
+      "title": "门店详情",
+      "state": "项目与技师"
+    },
+    {
+      "id": "u-service",
+      "role": "user",
+      "title": "项目详情",
+      "state": "时长与总价"
+    },
+    {
+      "id": "u-tech-picker",
+      "role": "user",
+      "title": "选择技师",
+      "state": "就近 / 指定"
+    },
+    {
+      "id": "u-tech-detail",
+      "role": "user",
+      "title": "技师档案",
+      "state": "资质与评价"
+    },
+    {
+      "id": "u-slots",
+      "role": "user",
+      "title": "选择时间",
+      "state": "总价直接显示"
+    },
+    {
+      "id": "u-no-slots",
+      "role": "user",
+      "title": "选择时间",
+      "state": "暂无可约"
+    },
+    {
+      "id": "u-contact",
+      "role": "user",
+      "title": "预约联系人",
+      "state": "本人 / 家人"
+    },
+    {
+      "id": "u-identity",
+      "role": "user",
+      "title": "实名核验",
+      "state": "单独同意"
+    },
+    {
+      "id": "u-identity-consent",
+      "role": "user",
+      "title": "实名信息授权",
+      "state": "用途与撤回"
+    },
+    {
+      "id": "u-health",
+      "role": "user",
+      "title": "健康告知",
+      "state": "首次完整告知"
+    },
+    {
+      "id": "u-confirm",
+      "role": "user",
+      "title": "确认预约",
+      "state": "待支付"
+    },
+    {
+      "id": "u-payment-success",
+      "role": "user",
+      "title": "支付结果",
+      "state": "支付成功"
+    },
+    {
+      "id": "u-payment-expired",
+      "role": "user",
+      "title": "预约已关闭",
+      "state": "支付超时"
+    },
+    {
+      "id": "u-orders",
+      "role": "user",
+      "title": "我的预约",
+      "state": "当前预约"
+    },
+    {
+      "id": "u-order-waiting",
+      "role": "user",
+      "title": "预约详情",
+      "state": "等待确认"
+    },
+    {
+      "id": "u-order-confirmed",
+      "role": "user",
+      "title": "预约详情",
+      "state": "已确认"
+    },
+    {
+      "id": "u-order-active",
+      "role": "user",
+      "title": "预约详情",
+      "state": "进行中"
+    },
+    {
+      "id": "u-order-completed",
+      "role": "user",
+      "title": "预约详情",
+      "state": "已完成"
+    },
+    {
+      "id": "u-order-care",
+      "role": "user",
+      "title": "预约详情",
+      "state": "门店与客服处理中"
+    },
+    {
+      "id": "u-reschedule",
+      "role": "user",
+      "title": "改约",
+      "state": "同价时段"
+    },
+    {
+      "id": "u-reassign",
+      "role": "user",
+      "title": "技师调整确认",
+      "state": "指定技师变更"
+    },
+    {
+      "id": "u-store-reschedule",
+      "role": "user",
+      "title": "时间调整确认",
+      "state": "门店发起"
+    },
+    {
+      "id": "u-cancel-confirm",
+      "role": "user",
+      "title": "取消预约",
+      "state": "显示金额"
+    },
+    {
+      "id": "u-cancelled",
+      "role": "user",
+      "title": "预约详情",
+      "state": "已取消"
+    },
+    {
+      "id": "u-refund-processing",
+      "role": "user",
+      "title": "退款进度",
+      "state": "处理中"
+    },
+    {
+      "id": "u-refund-failed",
+      "role": "user",
+      "title": "退款进度",
+      "state": "退款未完成"
+    },
+    {
+      "id": "u-refund-result",
+      "role": "user",
+      "title": "退款结果",
+      "state": "已到账"
+    },
+    {
+      "id": "u-aftersale-apply",
+      "role": "user",
+      "title": "申请售后",
+      "state": "分别填写付款诉求"
+    },
+    {
+      "id": "u-aftersale",
+      "role": "user",
+      "title": "售后进度",
+      "state": "门店 / 集团处理中"
+    },
+    {
+      "id": "u-aftersale-confirm",
+      "role": "user",
+      "title": "售后进度",
+      "state": "用户确认方案"
+    },
+    {
+      "id": "u-aftersale-result",
+      "role": "user",
+      "title": "售后结果",
+      "state": "已完成 / 驳回"
+    },
+    {
+      "id": "u-review",
+      "role": "user",
+      "title": "评价",
+      "state": "一次提交"
+    },
+    {
+      "id": "u-my",
+      "role": "user",
+      "title": "我的",
+      "state": "账户与常用入口"
+    },
+    {
+      "id": "u-privacy",
+      "role": "user",
+      "title": "隐私设置",
+      "state": "查看 / 撤回 / 恢复"
+    },
+    {
+      "id": "u-restricted",
+      "role": "user",
+      "title": "账号状态",
+      "state": "限制 / 已注销"
+    },
+    {
+      "id": "u-delete",
+      "role": "user",
+      "title": "注销账号",
+      "state": "未完事项检查"
+    },
+    {
+      "id": "u-invoice",
+      "role": "user",
+      "title": "申请发票",
+      "state": "个人 / 企业"
+    },
+    {
+      "id": "u-invoice-result",
+      "role": "user",
+      "title": "发票详情",
+      "state": "申请与处理结果"
+    },
+    {
+      "id": "u-promo",
+      "role": "user",
+      "title": "推广中心",
+      "state": "身份 / 佣金"
+    },
+    {
+      "id": "u-withdraw",
+      "role": "user",
+      "title": "提现",
+      "state": "提交 / 收款授权"
+    },
+    {
+      "id": "u-withdraw-result",
+      "role": "user",
+      "title": "提现结果",
+      "state": "处理中 / 成功 / 失败 / 撤销"
+    },
+    {
+      "id": "t-work",
+      "role": "tech",
+      "title": "我的预约",
+      "state": "工作台"
+    },
+    {
+      "id": "t-appointment-waiting",
+      "role": "tech",
+      "title": "预约待确认",
+      "state": "待技师确认"
+    },
+    {
+      "id": "t-appointment-confirmed",
+      "role": "tech",
+      "title": "已确认预约",
+      "state": "等待开始"
+    },
+    {
+      "id": "t-appointment-active",
+      "role": "tech",
+      "title": "预约进行中",
+      "state": "计时中"
+    },
+    {
+      "id": "t-appointment-completed",
+      "role": "tech",
+      "title": "预约已完成",
+      "state": "等待结算"
+    },
+    {
+      "id": "t-care",
+      "role": "tech",
+      "title": "客服处理",
+      "state": "处理中"
+    },
+    {
+      "id": "t-expired",
+      "role": "tech",
+      "title": "预约已关闭",
+      "state": "关闭结果"
+    },
+    {
+      "id": "t-extension-wait",
+      "role": "tech",
+      "title": "加钟待支付",
+      "state": "等待用户支付"
+    },
+    {
+      "id": "t-finish",
+      "role": "tech",
+      "title": "结束记录",
+      "state": "完成确认"
+    },
+    {
+      "id": "t-terminate",
+      "role": "tech",
+      "title": "提前结束",
+      "state": "填写原因"
+    },
+    {
+      "id": "t-schedule",
+      "role": "tech",
+      "title": "我的排班",
+      "state": "排班总览"
+    },
+    {
+      "id": "t-schedule-edit",
+      "role": "tech",
+      "title": "编辑排班",
+      "state": "填写工作时间"
+    },
+    {
+      "id": "t-leave",
+      "role": "tech",
+      "title": "申请请假",
+      "state": "填写申请"
+    },
+    {
+      "id": "t-leave-pending",
+      "role": "tech",
+      "title": "请假进度",
+      "state": "门店处理中"
+    },
+    {
+      "id": "t-profile",
+      "role": "tech",
+      "title": "个人资料",
+      "state": "资料总览"
+    },
+    {
+      "id": "t-onboarding",
+      "role": "tech",
+      "title": "完善资料",
+      "state": "填写并上传"
+    },
+    {
+      "id": "t-income",
+      "role": "tech",
+      "title": "收入明细",
+      "state": "资金状态"
+    },
+    {
+      "id": "s-board",
+      "role": "store",
+      "title": "门店看板",
+      "state": "经营工作台"
+    },
+    {
+      "id": "s-waiting",
+      "role": "store",
+      "title": "待安排预约",
+      "state": "待门店安排"
+    },
+    {
+      "id": "s-pick",
+      "role": "store",
+      "title": "选择预约技师",
+      "state": "门店派单"
+    },
+    {
+      "id": "s-reassign",
+      "role": "store",
+      "title": "改派预约技师",
+      "state": "填写调整方案"
+    },
+    {
+      "id": "s-reassign-wait",
+      "role": "store",
+      "title": "改派待确认",
+      "state": "等待用户确认"
+    },
+    {
+      "id": "s-reassign-result",
+      "role": "store",
+      "title": "改派结果",
+      "state": "结果记录"
+    },
+    {
+      "id": "s-reschedule",
+      "role": "store",
+      "title": "调整预约时间",
+      "state": "填写调整方案"
+    },
+    {
+      "id": "s-reschedule-wait",
+      "role": "store",
+      "title": "改约待确认",
+      "state": "等待用户确认"
+    },
+    {
+      "id": "s-aftersale",
+      "role": "store",
+      "title": "售后处理",
+      "state": "待门店处理"
+    },
+    {
+      "id": "s-aftersale-wait",
+      "role": "store",
+      "title": "退款方案待确认",
+      "state": "等待用户确认"
+    },
+    {
+      "id": "s-aftersale-result",
+      "role": "store",
+      "title": "售后结果",
+      "state": "结果记录"
+    },
+    {
+      "id": "s-schedule",
+      "role": "store",
+      "title": "门店排班",
+      "state": "排班总览"
+    },
+    {
+      "id": "s-leave-review",
+      "role": "store",
+      "title": "处理请假",
+      "state": "待门店确认"
+    },
+    {
+      "id": "s-leave-result",
+      "role": "store",
+      "title": "请假处理结果",
+      "state": "结果记录"
+    },
+    {
+      "id": "s-care",
+      "role": "store",
+      "title": "客服待办",
+      "state": "待门店处理"
+    },
+    {
+      "id": "s-care-result",
+      "role": "store",
+      "title": "客服处理结果",
+      "state": "结果记录"
+    },
+    {
+      "id": "s-forbidden",
+      "role": "store",
+      "title": "暂无操作权限",
+      "state": "非本门店记录"
+    }
+  ],
+  "renderChecks": [],
+  "issues": [
+    {
+      "type": "console",
+      "message": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    }
+  ],
+  "interactionCases": [
+    {
+      "name": "真实填写片区门店项目技师联系人实名健康到付款",
+      "pass": true
+    },
+    {
+      "name": "拒绝定位后可继续手选片区",
+      "pass": true
+    },
+    {
+      "name": "不同定位就近技师改变并按门店项目休假筛选",
+      "pass": true
+    },
+    {
+      "name": "门店安排直接确认且重复操作不重置截止",
+      "pass": true
+    },
+    {
+      "name": "30分钟未确认自动全额退款",
+      "pass": true
+    },
+    {
+      "name": "指定改派确认前保留原技师拒绝全额退款",
+      "pass": true
+    },
+    {
+      "name": "指定改派同意直接确认新技师",
+      "pass": true
+    },
+    {
+      "name": "改约拟选不覆盖正式预约确认后开启新轮",
+      "pass": true
+    },
+    {
+      "name": "临近开始重新确认受开始前60分钟截止约束",
+      "pass": true
+    },
+    {
+      "name": "门店调整时间待确认保留原预约拒绝不变",
+      "pass": true
+    },
+    {
+      "name": "肩颈日间198夜间228价格随时段变化",
+      "pass": true
+    },
+    {
+      "name": "预约时间前禁止开始到时间后开始记录",
+      "pass": true
+    },
+    {
+      "name": "正常完成包含已付款加钟总时长",
+      "pass": true
+    },
+    {
+      "name": "客服协助冻结资金明确继续后恢复记录",
+      "pass": true
+    },
+    {
+      "name": "请假只影响本人已确认且重叠预约并禁止重复开轮",
+      "pass": true
+    },
+    {
+      "name": "普通请假完整日期保存且不影响其他日期预约",
+      "pass": true
+    },
+    {
+      "name": "主项目和加钟申请147元协商70元比例分摊",
+      "pass": true
+    },
+    {
+      "name": "1分钱尾差稳定且零金额支付分摊无负数",
+      "pass": true
+    },
+    {
+      "name": "重复售后按198剩余金额退款且渠道刷新幂等",
+      "pass": true
+    },
+    {
+      "name": "提现失败恢复一次重提计次每天三次上限",
+      "pass": true
+    },
+    {
+      "name": "跨角色查看与刷新保留同笔预约和联系人",
+      "pass": true
+    },
+    {
+      "name": "性别偏好和排班休息及占用时段筛选",
+      "pass": true
+    },
+    {
+      "name": "绕过日期选项仍禁止提交7天以外或两小时内预约",
+      "pass": true
+    },
+    {
+      "name": "支付保留时限自然到期关闭且不扣款",
+      "pass": true
+    },
+    {
+      "name": "198预约取消按已产生费用事实显示39.60与158.40",
+      "pass": true
+    },
+    {
+      "name": "退款渠道失败保留原金额明细且重试到账幂等",
+      "pass": true
+    },
+    {
+      "name": "仅反馈问题不新增退款且保留已确认累计退款",
+      "pass": true
+    },
+    {
+      "name": "未双方确认继续保持客服协助及资金冻结",
+      "pass": true
+    },
+    {
+      "name": "未免确认授权提现需确认收款且失败仍只计一次",
+      "pass": true
+    }
+  ],
+  "interactionChecks": [
+    {
+      "name": "付款后仍等待确认",
+      "pass": true,
+      "screen": "u-payment-success",
+      "expected": {
+        "paid": true,
+        "stage": "waiting",
+        "finance": "paid",
+        "identityVerified": true,
+        "adult": true,
+        "health": true
+      }
+    },
+    {
+      "name": "门店直接确认预约",
+      "pass": true,
+      "screen": "s-reassign-result",
+      "expected": {
+        "stage": "confirmed",
+        "finance": "paid"
+      }
+    },
+    {
+      "name": "预约时间到开始计时",
+      "pass": true,
+      "screen": "t-appointment-active",
+      "expected": {
+        "stage": "active",
+        "finance": "paid"
+      }
+    },
+    {
+      "name": "满主项目加钟后完成",
+      "pass": true,
+      "screen": "t-appointment-completed",
+      "expected": {
+        "stage": "completed",
+        "finance": "pending-settlement"
+      }
+    },
+    {
+      "name": "请求协助冻结资金",
+      "pass": true,
+      "screen": "t-care",
+      "expected": {
+        "stage": "care",
+        "finance": "blocked"
+      }
+    },
+    {
+      "name": "门店记录继续后恢复",
+      "pass": true,
+      "screen": "s-care-result",
+      "expected": {
+        "stage": "active",
+        "finance": "paid"
+      }
+    }
+  ],
+  "screenshots": [
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-01-真实预约支付.png",
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-02-定位拒绝手选.png",
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-03-就近匹配随定位变化.png",
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-04-门店直接确认.png",
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-05-安排超时退款.png",
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-06-拒绝指定改派.png",
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-07-指定改派确认新技师.png",
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-08-改约确认生效.png",
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-09-重新确认开始前截止.png",
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-10-拒绝门店改约.png",
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-11-肩颈时段价格.png",
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-12-按预约时间开始.png",
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-13-满90分钟正常完成.png",
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-14-客服处理继续预约.png",
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-15-批准请假移入安排.png",
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-16-普通请假保留无重叠预约.png",
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-17-协商退款按支付分摊.png",
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-18-1分钱尾差分摊.png",
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-19-累计退款净开票.png",
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-20-提现失败幂等及每日上限.png",
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-21-跨角色同单刷新保留.png",
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-22-偏好排班与占用筛选.png",
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-23-提交日期边界校验.png",
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-24-支付自然超时.png",
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-25-198取消扣费与退款.png",
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-26-退款失败原明细重试.png",
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-27-仅反馈保留累计退款.png",
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-28-客服未解决冻结.png",
+    "H:\\connextes\\天俪_app\\design\\prototype-v4\\verification-regression\\验收-29-提现逐笔确认路径.png"
+  ],
+  "finishedAt": "2026-10-01T10:13:51.448Z",
+  "summary": {
+    "screens": 80,
+    "renderChecks": 0,
+    "issues": 1,
+    "casePass": 29,
+    "caseFail": 0,
+    "stateAssertions": 6,
+    "browserErrors": 1
+  }
+}

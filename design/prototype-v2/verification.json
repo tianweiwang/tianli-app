@@ -1,0 +1,248 @@
+{
+  "result": "passed",
+  "runtime": "Headless Microsoft Edge / Playwright",
+  "checks": [
+    "首页预约进入确认页，并显示具体技师",
+    "范围外地址阻止确认；范围内地址重新匹配技师",
+    "修改时段后更新总价，固定底部价格同步",
+    "支付演示明确提示模拟，完成后进入待接单",
+    "45分钟项目时段与选中状态正确，新预约草稿不改变已支付订单",
+    "第二服务项目的支付结果保留真实项目名称、时长和价格",
+    "确认接单更新卡片，到达打卡后显示开始服务",
+    "拒单经确认后进入门店派单",
+    "接单倒计时失效后移除接单操作",
+    "接报告警进入处理中；结果必填，提交后才结案",
+    "本店可约技师选择与派单结果",
+    "派单结果固化，另一订单的改派草稿不影响已派单；指定技师改派进入等待用户确认",
+    "派单超时显示退款结果并移除失效派单操作",
+    "求助超时显示升级状态，保留原告警发生时间",
+    "支付锁定失效要求重新选择时段",
+    "320、390、430三种视口下四页均无水平溢出",
+    "四页主按钮均48px，整体居中且处于父级边界内"
+  ],
+  "geometry": [
+    {
+      "screen": "home",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "appWidth": 390,
+      "bodyWidth": 390,
+      "contentWidth": 390,
+      "contentClientWidth": 390,
+      "buttons": [
+        {
+          "label": "预约",
+          "x": 286,
+          "y": 342,
+          "width": 88,
+          "height": 48,
+          "parentLeft": 102,
+          "parentRight": 374,
+          "align": "center",
+          "justify": "center",
+          "inside": true,
+          "visible": true
+        },
+        {
+          "label": "预约",
+          "x": 286,
+          "y": 470,
+          "width": 88,
+          "height": 48,
+          "parentLeft": 102,
+          "parentRight": 374,
+          "align": "center",
+          "justify": "center",
+          "inside": true,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "screen": "booking",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "appWidth": 390,
+      "bodyWidth": 390,
+      "contentWidth": 390,
+      "contentClientWidth": 390,
+      "buttons": [
+        {
+          "label": "确认并支付",
+          "x": 116.59375,
+          "y": 766.5,
+          "width": 257.40625,
+          "height": 48,
+          "parentLeft": 0,
+          "parentRight": 390,
+          "align": "center",
+          "justify": "center",
+          "inside": true,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "screen": "tech",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "appWidth": 390,
+      "bodyWidth": 390,
+      "contentWidth": 390,
+      "contentClientWidth": 390,
+      "buttons": [
+        {
+          "label": "拒单",
+          "x": 27,
+          "y": 429,
+          "width": 98,
+          "height": 48,
+          "parentLeft": 27,
+          "parentRight": 363,
+          "align": "center",
+          "justify": "center",
+          "inside": true,
+          "visible": true
+        },
+        {
+          "label": "确认接单",
+          "x": 135,
+          "y": 429,
+          "width": 228,
+          "height": 48,
+          "parentLeft": 27,
+          "parentRight": 363,
+          "align": "center",
+          "justify": "center",
+          "inside": true,
+          "visible": true
+        },
+        {
+          "label": "联系客户",
+          "x": 27,
+          "y": 683,
+          "width": 98,
+          "height": 48,
+          "parentLeft": 27,
+          "parentRight": 363,
+          "align": "center",
+          "justify": "center",
+          "inside": true,
+          "visible": true
+        },
+        {
+          "label": "到达打卡",
+          "x": 135,
+          "y": 683,
+          "width": 228,
+          "height": 48,
+          "parentLeft": 27,
+          "parentRight": 363,
+          "align": "center",
+          "justify": "center",
+          "inside": true,
+          "visible": true
+        },
+        {
+          "label": "查看订单",
+          "x": 27,
+          "y": 895,
+          "width": 336,
+          "height": 48,
+          "parentLeft": 12,
+          "parentRight": 378,
+          "align": "center",
+          "justify": "center",
+          "inside": true,
+          "visible": false
+        },
+        {
+          "label": "查看订单",
+          "x": 27,
+          "y": 1107,
+          "width": 336,
+          "height": 48,
+          "parentLeft": 12,
+          "parentRight": 378,
+          "align": "center",
+          "justify": "center",
+          "inside": true,
+          "visible": false
+        }
+      ]
+    },
+    {
+      "screen": "store",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "appWidth": 390,
+      "bodyWidth": 390,
+      "contentWidth": 390,
+      "contentClientWidth": 390,
+      "buttons": [
+        {
+          "label": "查看详情",
+          "x": 26,
+          "y": 273,
+          "width": 165,
+          "height": 48,
+          "parentLeft": 26,
+          "parentRight": 364,
+          "align": "center",
+          "justify": "center",
+          "inside": true,
+          "visible": true
+        },
+        {
+          "label": "立即接报",
+          "x": 201,
+          "y": 273,
+          "width": 163,
+          "height": 48,
+          "parentLeft": 26,
+          "parentRight": 364,
+          "align": "center",
+          "justify": "center",
+          "inside": true,
+          "visible": true
+        },
+        {
+          "label": "选择技师派单",
+          "x": 27,
+          "y": 567,
+          "width": 336,
+          "height": 48,
+          "parentLeft": 12,
+          "parentRight": 378,
+          "align": "center",
+          "justify": "center",
+          "inside": true,
+          "visible": true
+        },
+        {
+          "label": "选择技师派单",
+          "x": 27,
+          "y": 802,
+          "width": 336,
+          "height": 48,
+          "parentLeft": 12,
+          "parentRight": 378,
+          "align": "center",
+          "justify": "center",
+          "inside": true,
+          "visible": false
+        }
+      ]
+    }
+  ],
+  "consoleErrors": [],
+  "boundary": "仅本地浏览器原型；支付、通话、后台与微信真机未接入或验证"
+}

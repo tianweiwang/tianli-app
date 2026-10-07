@@ -1,0 +1,37 @@
+{
+  "release": "20261002-tianli-v3-v4-980feb10",
+  "site": "H:\\connextes\\天俪_app\\deployment\\releases\\20261002-tianli-v3-v4-980feb10\\site",
+  "archive": "H:\\connextes\\天俪_app\\deployment\\releases\\20261002-tianli-v3-v4-980feb10\\20261002-tianli-v3-v4-980feb10.tar.gz",
+  "archiveBytes": 38766565,
+  "archiveSha256": "d36be542a56b639cb297940bac5ba3b923183404e9ba89aaa5cc4fae1743c67a",
+  "files": 312,
+  "versions": [
+    {
+      "version": "v3",
+      "screens": 170,
+      "png": 182,
+      "localValidation": {
+        "screens": 170,
+        "renderChecks": 510,
+        "issues": 0,
+        "interactionPass": 74,
+        "interactionFail": 0,
+        "placeholderScreens": 0
+      }
+    },
+    {
+      "version": "v4",
+      "screens": 80,
+      "png": 96,
+      "localValidation": {
+        "screens": 80,
+        "renderChecks": 240,
+        "issues": 0,
+        "casePass": 29,
+        "caseFail": 0,
+        "stateAssertions": 6,
+        "browserErrors": 0
+      }
+    }
+  ]
+}

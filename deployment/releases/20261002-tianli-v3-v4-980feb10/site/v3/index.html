@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>天俪 · 第三版设计稿</title><style>
+*{box-sizing:border-box}body{margin:0;font-family:"Microsoft YaHei","PingFang SC",sans-serif;background:#eceeef;color:#25282d}
+.shell{max-width:1720px;margin:auto;padding:28px 32px 40px}header{display:flex;justify-content:space-between;gap:24px;align-items:center;margin-bottom:8px}
+.identity{display:flex;gap:13px;align-items:center}.mark{height:44px;width:44px;background:#c94f35;color:#fff;border-radius:12px;display:grid;place-items:center;font-size:24px;font-weight:600}
+h1{font-size:22px;font-weight:600;margin:0 0 5px}.subtitle{font-size:12px;color:#737a83;margin:0}.version{font-size:11px;letter-spacing:1px;margin-left:12px;color:#979da4;font-weight:400}
+nav{display:flex;gap:5px;border:1px solid #dce0e3;border-radius:8px;padding:4px;background:#f6f7f8}nav button{font:inherit;cursor:pointer;height:34px;font-size:12px;border:0;background:none;color:#747b84;border-radius:5px;padding:0 15px}nav button.active{background:#fff;color:#25282d;box-shadow:0 1px 4px #0000000b;font-weight:600}
+.group{margin-top:30px}.group h2{font-size:16px;margin:0 0 14px;display:flex;align-items:baseline;gap:10px}.group h2 span{font-size:12px;color:#8a9098;font-weight:400}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,390px);gap:28px 26px}.pane{width:390px}
+.label{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:9px;gap:8px}.label b{font-size:14px}.label b em{font-style:normal;color:#969ca4;font-weight:400;margin-right:7px;font-size:12px}.label .state{font-size:12px;color:#c94f35;white-space:nowrap}
+.phone{width:390px;height:844px;border-radius:22px;overflow:hidden;background:#fff;box-shadow:0 7px 23px #15233512;outline:1px solid #d9dde0}.phone iframe,.phone img{width:390px;height:844px;border:0;display:block}
+.caption{font-size:12px;color:#5f666f;margin-top:10px;line-height:19px}.ref{font-size:11px;color:#969ca4;margin-top:3px}
+.note{font-size:12px;color:#858c95;line-height:19px;margin-top:6px;max-width:880px}
+body.capture .shell{padding:28px 28px 32px}body.capture header nav,body.capture .note{display:none}body.capture .group{margin-top:18px}
+</style></head><body><main class="shell"><header><div class="identity"><div class="mark">俪</div><div><h1>天俪 · 上门服务<span class="version">DESIGN 03</span></h1><p class="subtitle" id="subtitle">按状态出图 · 对应需求文档 v0.3</p></div></div><nav aria-label="角色筛选"><button class="active" data-filter="all">全部</button><button data-filter="user">用户端</button><button data-filter="tech">技师端</button><button data-filter="store">店长小程序</button></nav></header>
+<p class="note">按角色和业务流程查看设计稿；组内按操作顺序排列，原页面编号保持不变。数据为演示数据。<a href="demo.html" style="color:#c94f35">体验完整流程</a> · <a href="coverage.md" style="color:#c94f35">需求覆盖与验证</a></p>
+<div id="groups"></div></main>
+<script src="screens.js"></script><script src="app.js"></script><script src="user-pages.js"></script><script src="staff-pages.js"></script><script src="status-pages.js"></script><script src="extra-pages.js"></script><script src="catalog.js"></script><script>
+const galleryQ=new URLSearchParams(location.search);const capture=galleryQ.has('capture');const only=galleryQ.get('group');
+if(capture)document.body.classList.add('capture');
+function draw(filter){
+  const box=document.getElementById('groups');box.innerHTML='';
+  const groups=SCREEN_GROUPS.filter(g=>!only||g===only);
+  for(const g of groups){
+    const items=SCREENS.filter(s=>s.group===g&&(filter==='all'||s.role===filter)).sort((a,b)=>a.displayOrder-b.displayOrder);if(!items.length)continue;
+    const sec=document.createElement('section');sec.className='group';
+    sec.innerHTML=`<h2>${g}<span>${items.length} 个状态</span></h2><div class="grid">${items.map(s=>`<article class="pane"><div class="label"><b><em>${s.no}</em>${s.title}</b><span class="state">${s.state==='—'?'':s.state}</span></div><div class="phone">${capture?`<img alt="${s.title}" src="exports/${encodeURIComponent(s.file)}">`:`<iframe loading="lazy" title="${s.title}" src="app.html?screen=${s.id}"></iframe>`}</div><p class="caption">${s.caption}</p><p class="ref">规则：${s.ref}</p></article>`).join('')}</div>`;
+    box.appendChild(sec);
+  }
+  if(only)document.getElementById('subtitle').textContent=only+' · 对应需求文档 v0.3';
+}
+document.querySelectorAll('[data-filter]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('[data-filter]').forEach(x=>x.classList.toggle('active',x===b));draw(b.dataset.filter)}));
+draw('all');
+</script></body></html>

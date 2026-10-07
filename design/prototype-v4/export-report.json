@@ -1,0 +1,834 @@
+{
+  "startedAt": "2026-10-01T10:21:13.264Z",
+  "base": "http://127.0.0.1:4184/",
+  "screens": 80,
+  "groups": 16,
+  "outputDirectory": "H:\\connextes\\天俪_app\\design\\prototype-v4\\exports",
+  "pageImageCount": 80,
+  "overviewImageCount": 16,
+  "actualPngCount": 96,
+  "directories": [],
+  "errors": [],
+  "report": [
+    {
+      "no": "U01",
+      "id": "u-home",
+      "file": "U01-首页-附近可约.png",
+      "group": "用户 · 预约",
+      "hiddenBelow": 74,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U02",
+      "id": "u-region",
+      "file": "U02-选择片区-定位、手动.png",
+      "group": "用户 · 预约",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U03",
+      "id": "u-location-denied",
+      "file": "U03-位置权限-未授权.png",
+      "group": "用户 · 预约",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U04",
+      "id": "u-no-coverage",
+      "file": "U04-当前片区-暂不可约.png",
+      "group": "用户 · 预约",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U05",
+      "id": "u-stores",
+      "file": "U05-选择门店-附近优先.png",
+      "group": "用户 · 预约",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U06",
+      "id": "u-store-detail",
+      "file": "U06-门店详情-项目与技师.png",
+      "group": "用户 · 预约",
+      "hiddenBelow": 20,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U07",
+      "id": "u-service",
+      "file": "U07-项目详情-时长与总价.png",
+      "group": "用户 · 预约",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U08",
+      "id": "u-tech-picker",
+      "file": "U08-选择技师-就近、指定.png",
+      "group": "用户 · 预约",
+      "hiddenBelow": 26,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U09",
+      "id": "u-tech-detail",
+      "file": "U09-技师档案-资质与评价.png",
+      "group": "用户 · 预约",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U10",
+      "id": "u-slots",
+      "file": "U10-选择时间-总价直接显示.png",
+      "group": "用户 · 预约",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U11",
+      "id": "u-no-slots",
+      "file": "U11-选择时间-暂无可约.png",
+      "group": "用户 · 预约",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U12",
+      "id": "u-contact",
+      "file": "U12-预约联系人-本人、家人.png",
+      "group": "用户 · 预约",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U13",
+      "id": "u-identity",
+      "file": "U13-实名核验-单独同意.png",
+      "group": "用户 · 预约",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U14",
+      "id": "u-identity-consent",
+      "file": "U14-实名信息授权-用途与撤回.png",
+      "group": "用户 · 预约",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U15",
+      "id": "u-health",
+      "file": "U15-健康告知-首次完整告知.png",
+      "group": "用户 · 预约",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U16",
+      "id": "u-confirm",
+      "file": "U16-确认预约-待支付.png",
+      "group": "用户 · 预约",
+      "hiddenBelow": 75,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U17",
+      "id": "u-payment-success",
+      "file": "U17-支付结果-支付成功.png",
+      "group": "用户 · 预约",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U18",
+      "id": "u-payment-expired",
+      "file": "U18-预约已关闭-支付超时.png",
+      "group": "用户 · 预约",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U19",
+      "id": "u-orders",
+      "file": "U19-我的预约-当前预约.png",
+      "group": "用户 · 预约与变更",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U20",
+      "id": "u-order-waiting",
+      "file": "U20-预约详情-等待确认.png",
+      "group": "用户 · 预约与变更",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U21",
+      "id": "u-order-confirmed",
+      "file": "U21-预约详情-已确认.png",
+      "group": "用户 · 预约与变更",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U22",
+      "id": "u-order-active",
+      "file": "U22-预约详情-进行中.png",
+      "group": "用户 · 预约与变更",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U23",
+      "id": "u-order-completed",
+      "file": "U23-预约详情-已完成.png",
+      "group": "用户 · 预约与变更",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U24",
+      "id": "u-order-care",
+      "file": "U24-预约详情-门店与客服处理中.png",
+      "group": "用户 · 预约与变更",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U25",
+      "id": "u-reschedule",
+      "file": "U25-改约-同价时段.png",
+      "group": "用户 · 预约与变更",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U26",
+      "id": "u-reassign",
+      "file": "U26-技师调整确认-指定技师变更.png",
+      "group": "用户 · 预约与变更",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U27",
+      "id": "u-store-reschedule",
+      "file": "U27-时间调整确认-门店发起.png",
+      "group": "用户 · 预约与变更",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U28",
+      "id": "u-cancel-confirm",
+      "file": "U28-取消预约-显示金额.png",
+      "group": "用户 · 退款与售后",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U29",
+      "id": "u-cancelled",
+      "file": "U29-预约详情-已取消.png",
+      "group": "用户 · 退款与售后",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U30",
+      "id": "u-refund-processing",
+      "file": "U30-退款进度-处理中.png",
+      "group": "用户 · 退款与售后",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U31",
+      "id": "u-refund-failed",
+      "file": "U31-退款进度-退款未完成.png",
+      "group": "用户 · 退款与售后",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U32",
+      "id": "u-refund-result",
+      "file": "U32-退款结果-已到账.png",
+      "group": "用户 · 退款与售后",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U33",
+      "id": "u-aftersale-apply",
+      "file": "U33-申请售后-分别填写付款诉求.png",
+      "group": "用户 · 退款与售后",
+      "hiddenBelow": 163,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U34",
+      "id": "u-aftersale",
+      "file": "U34-售后进度-门店、集团处理中.png",
+      "group": "用户 · 退款与售后",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U35",
+      "id": "u-aftersale-confirm",
+      "file": "U35-售后进度-用户确认方案.png",
+      "group": "用户 · 退款与售后",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U36",
+      "id": "u-aftersale-result",
+      "file": "U36-售后结果-已完成、驳回.png",
+      "group": "用户 · 退款与售后",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U37",
+      "id": "u-review",
+      "file": "U37-评价-一次提交.png",
+      "group": "用户 · 退款与售后",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U38",
+      "id": "u-my",
+      "file": "U38-我的-账户与常用入口.png",
+      "group": "用户 · 账户与资金",
+      "hiddenBelow": 44,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U39",
+      "id": "u-privacy",
+      "file": "U39-隐私设置-查看、撤回、恢复.png",
+      "group": "用户 · 账户与资金",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U40",
+      "id": "u-restricted",
+      "file": "U40-账号状态-限制、已注销.png",
+      "group": "用户 · 账户与资金",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U41",
+      "id": "u-delete",
+      "file": "U41-注销账号-未完事项检查.png",
+      "group": "用户 · 账户与资金",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U42",
+      "id": "u-invoice",
+      "file": "U42-申请发票-个人、企业.png",
+      "group": "用户 · 账户与资金",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U43",
+      "id": "u-invoice-result",
+      "file": "U43-发票详情-申请与处理结果.png",
+      "group": "用户 · 账户与资金",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U44",
+      "id": "u-promo",
+      "file": "U44-推广中心-身份、佣金.png",
+      "group": "用户 · 账户与资金",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U45",
+      "id": "u-withdraw",
+      "file": "U45-提现-提交、收款授权.png",
+      "group": "用户 · 账户与资金",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "U46",
+      "id": "u-withdraw-result",
+      "file": "U46-提现结果-处理中、成功、失败、撤销.png",
+      "group": "用户 · 账户与资金",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "T01",
+      "id": "t-work",
+      "file": "T01-我的预约-工作台.png",
+      "group": "预约工作台",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "T02",
+      "id": "t-appointment-waiting",
+      "file": "T02-预约待确认-待技师确认.png",
+      "group": "预约处理",
+      "hiddenBelow": 111,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "T03",
+      "id": "t-appointment-confirmed",
+      "file": "T03-已确认预约-等待开始.png",
+      "group": "预约处理",
+      "hiddenBelow": 49,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "T04",
+      "id": "t-appointment-active",
+      "file": "T04-预约进行中-计时中.png",
+      "group": "预约处理",
+      "hiddenBelow": 204,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "T05",
+      "id": "t-appointment-completed",
+      "file": "T05-预约已完成-等待结算.png",
+      "group": "预约处理",
+      "hiddenBelow": 49,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "T06",
+      "id": "t-care",
+      "file": "T06-客服处理-处理中.png",
+      "group": "异常处理",
+      "hiddenBelow": 110,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "T07",
+      "id": "t-expired",
+      "file": "T07-预约已关闭-关闭结果.png",
+      "group": "预约处理",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "T08",
+      "id": "t-extension-wait",
+      "file": "T08-加钟待支付-等待用户支付.png",
+      "group": "预约处理",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "T09",
+      "id": "t-finish",
+      "file": "T09-结束记录-完成确认.png",
+      "group": "预约处理",
+      "hiddenBelow": 100,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "T10",
+      "id": "t-terminate",
+      "file": "T10-提前结束-填写原因.png",
+      "group": "异常处理",
+      "hiddenBelow": 55,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "T11",
+      "id": "t-schedule",
+      "file": "T11-我的排班-排班总览.png",
+      "group": "排班请假",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "T12",
+      "id": "t-schedule-edit",
+      "file": "T12-编辑排班-填写工作时间.png",
+      "group": "排班请假",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "T13",
+      "id": "t-leave",
+      "file": "T13-申请请假-填写申请.png",
+      "group": "排班请假",
+      "hiddenBelow": 1,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "T14",
+      "id": "t-leave-pending",
+      "file": "T14-请假进度-门店处理中.png",
+      "group": "排班请假",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "T15",
+      "id": "t-profile",
+      "file": "T15-个人资料-资料总览.png",
+      "group": "个人资料",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "T16",
+      "id": "t-onboarding",
+      "file": "T16-完善资料-填写并上传.png",
+      "group": "个人资料",
+      "hiddenBelow": 359,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "T17",
+      "id": "t-income",
+      "file": "T17-收入明细-资金状态.png",
+      "group": "收入结算",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "S01",
+      "id": "s-board",
+      "file": "S01-门店看板-经营工作台.png",
+      "group": "门店工作台",
+      "hiddenBelow": 44,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "S02",
+      "id": "s-waiting",
+      "file": "S02-待安排预约-待门店安排.png",
+      "group": "预约安排",
+      "hiddenBelow": 112,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "S03",
+      "id": "s-pick",
+      "file": "S03-选择预约技师-门店派单.png",
+      "group": "预约安排",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "S04",
+      "id": "s-reassign",
+      "file": "S04-改派预约技师-填写调整方案.png",
+      "group": "预约变更",
+      "hiddenBelow": 203,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "S05",
+      "id": "s-reassign-wait",
+      "file": "S05-改派待确认-等待用户确认.png",
+      "group": "预约变更",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "S06",
+      "id": "s-reassign-result",
+      "file": "S06-改派结果-结果记录.png",
+      "group": "预约变更",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "S07",
+      "id": "s-reschedule",
+      "file": "S07-调整预约时间-填写调整方案.png",
+      "group": "预约变更",
+      "hiddenBelow": 77,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "S08",
+      "id": "s-reschedule-wait",
+      "file": "S08-改约待确认-等待用户确认.png",
+      "group": "预约变更",
+      "hiddenBelow": 93,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "S09",
+      "id": "s-aftersale",
+      "file": "S09-售后处理-待门店处理.png",
+      "group": "售后处理",
+      "hiddenBelow": 484,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "S10",
+      "id": "s-aftersale-wait",
+      "file": "S10-退款方案待确认-等待用户确认.png",
+      "group": "售后处理",
+      "hiddenBelow": 106,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "S11",
+      "id": "s-aftersale-result",
+      "file": "S11-售后结果-结果记录.png",
+      "group": "售后处理",
+      "hiddenBelow": 106,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "S12",
+      "id": "s-schedule",
+      "file": "S12-门店排班-排班总览.png",
+      "group": "排班请假",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "S13",
+      "id": "s-leave-review",
+      "file": "S13-处理请假-待门店确认.png",
+      "group": "排班请假",
+      "hiddenBelow": 37,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "S14",
+      "id": "s-leave-result",
+      "file": "S14-请假处理结果-结果记录.png",
+      "group": "排班请假",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "S15",
+      "id": "s-care",
+      "file": "S15-客服待办-待门店处理.png",
+      "group": "客服协助",
+      "hiddenBelow": 220,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "S16",
+      "id": "s-care-result",
+      "file": "S16-客服处理结果-结果记录.png",
+      "group": "客服协助",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    },
+    {
+      "no": "S17",
+      "id": "s-forbidden",
+      "file": "S17-暂无操作权限-非本门店记录.png",
+      "group": "权限边界",
+      "hiddenBelow": 0,
+      "sheetHidden": 0,
+      "xOverflow": 0
+    }
+  ],
+  "overviews": [
+    {
+      "group": "用户 · 预约",
+      "file": "00-总览-01-用户 · 预约.png",
+      "imageCount": 18,
+      "imagesDecoded": true
+    },
+    {
+      "group": "用户 · 预约与变更",
+      "file": "00-总览-02-用户 · 预约与变更.png",
+      "imageCount": 9,
+      "imagesDecoded": true
+    },
+    {
+      "group": "用户 · 退款与售后",
+      "file": "00-总览-03-用户 · 退款与售后.png",
+      "imageCount": 10,
+      "imagesDecoded": true
+    },
+    {
+      "group": "用户 · 账户与资金",
+      "file": "00-总览-04-用户 · 账户与资金.png",
+      "imageCount": 9,
+      "imagesDecoded": true
+    },
+    {
+      "group": "预约工作台",
+      "file": "00-总览-05-预约工作台.png",
+      "imageCount": 1,
+      "imagesDecoded": true
+    },
+    {
+      "group": "预约处理",
+      "file": "00-总览-06-预约处理.png",
+      "imageCount": 7,
+      "imagesDecoded": true
+    },
+    {
+      "group": "异常处理",
+      "file": "00-总览-07-异常处理.png",
+      "imageCount": 2,
+      "imagesDecoded": true
+    },
+    {
+      "group": "排班请假",
+      "file": "00-总览-08-排班请假.png",
+      "imageCount": 7,
+      "imagesDecoded": true
+    },
+    {
+      "group": "个人资料",
+      "file": "00-总览-09-个人资料.png",
+      "imageCount": 2,
+      "imagesDecoded": true
+    },
+    {
+      "group": "收入结算",
+      "file": "00-总览-10-收入结算.png",
+      "imageCount": 1,
+      "imagesDecoded": true
+    },
+    {
+      "group": "门店工作台",
+      "file": "00-总览-11-门店工作台.png",
+      "imageCount": 1,
+      "imagesDecoded": true
+    },
+    {
+      "group": "预约安排",
+      "file": "00-总览-12-预约安排.png",
+      "imageCount": 2,
+      "imagesDecoded": true
+    },
+    {
+      "group": "预约变更",
+      "file": "00-总览-13-预约变更.png",
+      "imageCount": 5,
+      "imagesDecoded": true
+    },
+    {
+      "group": "售后处理",
+      "file": "00-总览-14-售后处理.png",
+      "imageCount": 3,
+      "imagesDecoded": true
+    },
+    {
+      "group": "客服协助",
+      "file": "00-总览-15-客服协助.png",
+      "imageCount": 2,
+      "imagesDecoded": true
+    },
+    {
+      "group": "权限边界",
+      "file": "00-总览-16-权限边界.png",
+      "imageCount": 1,
+      "imagesDecoded": true
+    }
+  ],
+  "success": true,
+  "finishedAt": "2026-10-01T10:21:23.183Z"
+}
