@@ -1,0 +1,11 @@
+.git
+.DS_Store
+**/node_modules
+**/verification
+**/vendor
+deployment/coolify/site
+.private-backup
+deployment/releases
+docs
+方案汇总
+pelican-bicycle.html

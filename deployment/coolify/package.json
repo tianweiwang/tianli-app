@@ -1,0 +1,9 @@
+{
+  "name": "tianli-coolify-build",
+  "private": true,
+  "version": "1.0.0",
+  "dependencies": {
+    "lucide": "1.8.0",
+    "pdfjs-dist": "5.6.205"
+  }
+}
