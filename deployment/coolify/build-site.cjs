@@ -45,5 +45,16 @@ const pdfFiles = Object.fromEntries(Object.entries(manifest).filter(([file]) => 
 const pdfLock = require('./package-lock.json').packages['node_modules/pdfjs-dist'];
 fs.writeFileSync(path.join(target, 'provenance.json'), JSON.stringify({ package: 'pdfjs-dist', version: '5.6.205', build: 'legacy/build', license: 'Apache-2.0', source: pdfLock.resolved, npmIntegrity: pdfLock.integrity, note: 'Generated from npm ci build with locked official npm package.', files: pdfFiles }, null, 2) + '\n');
 manifest['integrated-v5/vendor/pdfjs-5.6.205/provenance.json'] = crypto.createHash('sha256').update(fs.readFileSync(path.join(target, 'provenance.json'))).digest('hex');
-fs.writeFileSync(path.join(output, 'release.json'), JSON.stringify({ sourceCommit: process.env.SOURCE_COMMIT || 'local-check', files: manifest }, null, 2) + '\n');
-console.log(JSON.stringify({ output, files: Object.keys(manifest).length }));
+const assetVersion = crypto.createHash('sha256').update(JSON.stringify(Object.entries(manifest).sort(([a], [b]) => a.localeCompare(b)))).digest('hex');
+const indexFile = path.join(output, 'integrated-v5/index.html');
+const index = fs.readFileSync(indexFile, 'utf8').replace(/\b(src|href)="([^"]+)"/g, (attribute, name, value) => {
+  if (/^(?:#|[a-z]+:|\/\/)/i.test(value)) return attribute;
+  const url = new URL(value, 'https://build.invalid/integrated-v5/');
+  const file = url.pathname.slice(1);
+  if (!manifest[file]) throw Error('HTML references an unpublished resource: ' + value);
+  return name + '="/assets/' + assetVersion + '/' + file + url.search + url.hash + '"';
+});
+fs.writeFileSync(indexFile, index);
+manifest['integrated-v5/index.html'] = crypto.createHash('sha256').update(index).digest('hex');
+fs.writeFileSync(path.join(output, 'release.json'), JSON.stringify({ sourceCommit: process.env.SOURCE_COMMIT || 'local-check', assetVersion, files: manifest }, null, 2) + '\n');
+console.log(JSON.stringify({ output, files: Object.keys(manifest).length, assetVersion }));
